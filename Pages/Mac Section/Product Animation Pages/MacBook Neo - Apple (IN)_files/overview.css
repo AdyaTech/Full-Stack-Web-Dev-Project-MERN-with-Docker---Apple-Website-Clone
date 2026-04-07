@@ -1,0 +1,145 @@
+.ric-modal-viewport-content .footnotes a {
+	color: inherit;
+}
+.section-ribbon {
+	transform: translateY(-52px);
+}
+.ribbon {
+	--ribbon-link-inline-color: inherit;
+	overflow: hidden;
+	font-size: 14px;
+	line-height: 1.4285914286;
+	font-weight: 400;
+	letter-spacing: -0.016em;
+	font-family:
+		SF Pro Text,
+		SF Pro Icons,
+		Helvetica Neue,
+		Helvetica,
+		Arial,
+		sans-serif;
+	--ribbon-link-color: rgb(0, 102, 204);
+	--ribbon-focus-color: #0071e3;
+	--ribbon-text-color: rgb(29, 29, 31);
+	--ribbon-background-color: #fff;
+	--ribbon-content-padding-top: 16px;
+	--ribbon-content-padding-bottom: var(--ribbon-content-padding-top);
+	--ribbon-content-width: 83.33333%;
+	--ribbon-content-minimum-width: 320px;
+	width: var(--ribbon-width);
+	padding-top: var(--ribbon-padding-top);
+	padding-bottom: var(--ribbon-padding-bottom);
+}
+.ribbon-content-wrapper {
+	background-color: var(--ribbon-background-color);
+	-webkit-backdrop-filter: blur(var(--ribbon-background-blur));
+	backdrop-filter: blur(var(--ribbon-background-blur));
+	padding-top: var(--ribbon-content-padding-top);
+	padding-bottom: var(--ribbon-content-padding-bottom);
+	border-radius: var(--ribbon-border-radius);
+}
+.ribbon-content-wrapper {
+	text-align: center;
+}
+
+.ribbon-content {
+	margin-left: auto;
+	margin-right: auto;
+	width: var(--ribbon-content-width);
+	min-width: var(--ribbon-content-minimum-width);
+}
+
+.ribbon-link {
+	white-space: nowrap;
+}
+
+.ribbon-link:focus {
+	outline: 2px solid var(--sk-focus-color, #0071e3);
+	outline-offset: var(--sk-focus-offset, 1px);
+}
+
+.ribbon-link-inline {
+	color: var(--ribbon-link-inline-color);
+}
+
+.ribbon-link-inline, .ribbon-link-inline:link {
+	text-decoration: underline;
+}
+.ribbon {
+	z-index: 9998;
+	position: relative;
+}
+/*.ribbon-drop-wrapper {
+	animation: ribbon-drop .8s ease-in-out forwards
+}*/
+
+/*@media(prefers-reduced-motion) {
+	.ribbon-drop-wrapper {
+		animation: none
+	}
+}*/
+/*@keyframes ribbon-drop {
+	0% {
+		transform: translateY(-100%)
+	}
+
+	100% {
+		transform: translateY(0)
+	}
+}*/
+@supports (mask-image: url("")) {
+	html:not(.text-zoom, .no-image-text)
+		.section-performance
+		.performance-stat {
+		mask-repeat: no-repeat;
+		mask-image: url(/in/macbook-neo/images/overview/product-stories/performance/stats/performance_stat_1_mask__dcvhszvrhm82_large.png);
+	}
+
+	@media (min-resolution: 1.5dppx), (min-resolution: 144dpi) {
+		html:not(.text-zoom, .no-image-text)
+			.section-performance
+			.performance-stat {
+			mask-image: url(/in/macbook-neo/images/overview/product-stories/performance/stats/performance_stat_1_mask__dcvhszvrhm82_large_2x.png);
+		}
+	}
+}
+
+@media (max-width: 1068px) {
+	@supports (mask-image: url("")) {
+		html:not(.text-zoom, .no-image-text)
+			.section-performance
+			.performance-stat {
+			mask-repeat: no-repeat;
+			mask-image: url(/in/macbook-neo/images/overview/product-stories/performance/stats/performance_stat_1_mask__dcvhszvrhm82_medium.png);
+		}
+
+		@media (max-width: 1068px) and (min-resolution: 1.5dppx),
+			(max-width: 1068px) and (min-resolution: 144dpi) {
+			html:not(.text-zoom, .no-image-text)
+				.section-performance
+				.performance-stat {
+				mask-image: url(/in/macbook-neo/images/overview/product-stories/performance/stats/performance_stat_1_mask__dcvhszvrhm82_medium_2x.png);
+			}
+		}
+	}
+}
+
+@media (max-width: 734px) {
+	@supports (mask-image: url("")) {
+		html:not(.text-zoom, .no-image-text)
+			.section-performance
+			.performance-stat {
+			mask-repeat: no-repeat;
+			mask-image: url(/in/macbook-neo/images/overview/product-stories/performance/stats/performance_stat_1_mask__dcvhszvrhm82_small.png);
+		}
+
+		@media (max-width: 734px) and (min-resolution: 1.5dppx),
+			(max-width: 734px) and (min-resolution: 144dpi) {
+			html:not(.text-zoom, .no-image-text)
+				.section-performance
+				.performance-stat {
+				mask-image: url(/in/macbook-neo/images/overview/product-stories/performance/stats/performance_stat_1_mask__dcvhszvrhm82_small_2x.png);
+			}
+		}
+	}
+}

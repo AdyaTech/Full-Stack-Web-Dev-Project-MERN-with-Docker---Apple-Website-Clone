@@ -1,0 +1,8 @@
+.section-library .tabnav-link.current, .section-library .tabnav-link:hover {
+	background-color: #e8e8ed;
+	color: #000;
+}
+@media only screen and (max-width: 734px) {
+    .section-library .tabnav {
+        width: 195px;
+    }}

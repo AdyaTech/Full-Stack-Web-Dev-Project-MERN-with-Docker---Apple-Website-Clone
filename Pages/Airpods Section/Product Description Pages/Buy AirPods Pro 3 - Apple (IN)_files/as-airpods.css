@@ -1,0 +1,74 @@
+[class*="rs-productdecision-M"] .hide-for-selection,
+.rs-productdecision-MXP93 .show-for-MXP63,
+.hide {
+    display: none;
+}
+
+.rs-productdecision-MXP63 .show-for-MXP63,
+.rs-productdecision-MXP93 .show-for-MXP93 {
+    display: block;
+}
+
+.rf-overlay-chat-withbackgroundfooter .as-chat-buyflow-content {
+    text-align: center;
+}
+
+.rs-airpods-pro .rs-compare-currentview-airpodspro,
+.rs-productdecision-MXP93 .rs-compare-currentview-airpods4-noise,
+.rs-productdecision-MXP63 .rs-compare-currentview-airpods4,
+.rs-airpods-max .rs-compare-currentview-airpodsmax {
+    display: block;
+}
+
+.rs-airpods-max .rf-flagship-main-image,
+.rs-airpods-pro .rf-flagship-main-image,
+.rs-airpods .rf-flagship-main-image {
+    width: 488px;
+    padding-top: 50px;
+}
+
+.rs-airpods .rf-overlay-chat-withbackgroundfooter {
+    background-color: #fff;
+}
+
+.rs-airpods-pro .rf-flagship-buystrip,
+.rs-airpods-max .rf-flagship-buystrip {
+    padding-top: 20px;
+}
+
+.rs-buyflow-witbfooter {
+    color: #6e6e73;
+    padding-top: 20px;
+    text-align: center;
+    border-top: 1px solid rgb(210, 210, 215);
+}
+
+.rf-buyflow-witbfooter-header {
+    font-weight: 600;
+}
+
+.rs-buyflow-witbfooter div {
+    padding-top: 16px;
+}
+
+@media (max-width: 1023px) and (max-device-width: 736px) {
+    .rs-airpods-max .rf-flagship-image-wrapper,
+    .rs-airpods-pro .rf-flagship-image-wrapper,
+    .rs-airpods .rf-flagship-image-wrapper {
+        min-height: 200px;
+    }
+
+    .rs-airpods-max .rf-flagship-main-image,
+    .rs-airpods-pro .rf-flagship-main-image,
+    .rs-airpods .rf-flagship-main-image {
+        width: 100%;
+        margin-top: 12px;
+        max-width: 375px;
+        padding-top: 0;
+    }
+
+    .rs-airpods-pro .rf-flagship-buystrip,
+    .rs-airpods-max .rf-flagship-buystrip {
+        padding-top: 0;
+    }
+}

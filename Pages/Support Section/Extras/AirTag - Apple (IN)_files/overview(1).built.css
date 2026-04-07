@@ -1,0 +1,214 @@
+.section-manifesto .image-tile-hand {
+	background-image: url("/in/airtag/images/tile_hand__fp0y8v7vbl26_large.jpg");
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+	.section-manifesto .image-tile-hand {
+		background-image: url("/in/airtag/images/tile_hand__fp0y8v7vbl26_large_2x.jpg");
+	}
+}
+@media only screen and (max-width: 1068px) {
+	.section-manifesto .image-tile-hand {
+		background-image: url("/in/airtag/images/tile_hand__fp0y8v7vbl26_medium.jpg");
+	}
+}
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+	.section-manifesto .image-tile-hand {
+		background-image: url("/in/airtag/images/tile_hand__fp0y8v7vbl26_medium_2x.jpg");
+	}
+}
+@media only screen and (max-width: 734px) {
+	.section-manifesto .image-tile-hand {
+		background-repeat: no-repeat;
+		background-image: url("/in/airtag/images/tile_hand__fp0y8v7vbl26_small.jpg");
+	}
+}
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+	.section-manifesto .image-tile-hand {
+		background-image: url("/in/airtag/images/tile_hand__fp0y8v7vbl26_small_2x.jpg");
+	}
+}
+.section-features .image-ultra-wideband {
+	background-image: url("/in/airtag/images/overview/ultrawide__f8pqs3rm4kmm_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+	.section-features .image-ultra-wideband {
+		background-image: url("/in/airtag/images/overview/ultrawide__f8pqs3rm4kmm_large_2x.jpg");
+	}
+}
+
+@media only screen and (max-width: 1068px) {
+	.section-features .image-ultra-wideband {
+		background-image: url("/in/airtag/images/overview/ultrawide__f8pqs3rm4kmm_medium.jpg");
+	}
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+	.section-features .image-ultra-wideband {
+		background-image: url("/in/airtag/images/overview/ultrawide__f8pqs3rm4kmm_medium_2x.jpg");
+	}
+}
+
+@media only screen and (max-width: 734px) {
+	.section-features .image-ultra-wideband {
+		background-image: url("/in/airtag/images/overview/ultrawide__f8pqs3rm4kmm_small.jpg");
+	}
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+	.section-features .image-ultra-wideband {
+		background-image: url("/in/airtag/images/overview/ultrawide__f8pqs3rm4kmm_small_2x.jpg");
+	}
+}
+
+.section-network .image-lost-mode {
+	background-image: url("/in/airtag/images/overview/lost_mode__fr5yue3snj22_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+	.section-network .image-lost-mode {
+		background-image: url("/in/airtag/images/overview/lost_mode__fr5yue3snj22_large_2x.jpg");
+	}
+}
+
+@media only screen and (max-width: 1068px) {
+	.section-network .image-lost-mode {
+		background-image: url("/in/airtag/images/overview/lost_mode__fr5yue3snj22_medium.jpg");
+	}
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+	.section-network .image-lost-mode {
+		background-image: url("/in/airtag/images/overview/lost_mode__fr5yue3snj22_medium_2x.jpg");
+	}
+}
+
+@media only screen and (max-width: 734px) {
+	.section-network .image-lost-mode {
+		background-image: url("/in/airtag/images/overview/lost_mode__fr5yue3snj22_small.jpg");
+	}
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+	.section-network .image-lost-mode {
+		background-image: url("/in/airtag/images/overview/lost_mode__fr5yue3snj22_small_2x.jpg");
+	}
+}
+
+.section-more-features .image-ios {
+	background-image: url("/in/airtag/images/overview/simple_setup__eqfbz9km7t6q_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+	.section-more-features .image-ios {
+		background-image: url("/in/airtag/images/overview/simple_setup__eqfbz9km7t6q_large_2x.jpg");
+	}
+}
+
+@media only screen and (max-width: 1068px) {
+	.section-more-features .image-ios {
+		background-image: url("/in/airtag/images/overview/simple_setup__eqfbz9km7t6q_medium.jpg");
+	}
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+	.section-more-features .image-ios {
+		background-image: url("/in/airtag/images/overview/simple_setup__eqfbz9km7t6q_medium_2x.jpg");
+	}
+}
+
+@media only screen and (max-width: 734px) {
+	.section-more-features .image-ios {
+		background-image: url("/in/airtag/images/overview/simple_setup__eqfbz9km7t6q_small.jpg");
+	}
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+	.section-more-features .image-ios {
+		background-image: url("/in/airtag/images/overview/simple_setup__eqfbz9km7t6q_small_2x.jpg");
+	}
+}
+
+.section-tout .background-wrapper {
+	margin-bottom: 35px;
+}
+
+@media only screen and (max-width: 1068px) {
+	.section-tout .background-wrapper {
+		margin-bottom: 13px;
+	}
+}
+
+@media only screen and (max-width: 734px) {
+	.section-tout .background-wrapper {
+		margin-bottom: 10px;
+	}
+}
+
+.section-share-airtag .image-share-airtag {
+	background-image: url("/in/airtag/images/share_airtag__cg30tsedr8pe_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+	.section-share-airtag .image-share-airtag {
+		background-image: url("/in/airtag/images/share_airtag__cg30tsedr8pe_large_2x.jpg");
+	}
+}
+
+@media only screen and (max-width: 1068px) {
+	.section-share-airtag .image-share-airtag {
+		background-image: url("/in/airtag/images/share_airtag__cg30tsedr8pe_medium.jpg");
+	}
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+	.section-share-airtag .image-share-airtag {
+		background-image: url("/in/airtag/images/share_airtag__cg30tsedr8pe_medium_2x.jpg");
+	}
+}
+
+@media only screen and (max-width: 734px) {
+	.section-share-airtag .image-share-airtag {
+		background-image: url("/in/airtag/images/share_airtag__cg30tsedr8pe_small.jpg");
+	}
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+	.section-share-airtag .image-share-airtag {
+		background-image: url("/in/airtag/images/share_airtag__cg30tsedr8pe_small_2x.jpg");
+	}
+}
+
+.section-network .image-lost-item {
+	background-image: url("/in/airtag/images/overview/lost_item__dd2xaziuh3sm_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+	.section-network .image-lost-item {
+		background-image: url("/in/airtag/images/overview/lost_item__dd2xaziuh3sm_large_2x.jpg");
+	}
+}
+
+@media only screen and (max-width: 1068px) {
+	.section-network .image-lost-item {
+		background-image: url("/in/airtag/images/overview/lost_item__dd2xaziuh3sm_medium.jpg");
+	}
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+	.section-network .image-lost-item {
+		background-image: url("/in/airtag/images/overview/lost_item__dd2xaziuh3sm_medium_2x.jpg");
+	}
+}
+
+@media only screen and (max-width: 734px) {
+	.section-network .image-lost-item {
+		background-image: url("/in/airtag/images/overview/lost_item__dd2xaziuh3sm_small.jpg");
+	}
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+	.section-network .image-lost-item {
+		background-image: url("/in/airtag/images/overview/lost_item__dd2xaziuh3sm_small_2x.jpg");
+	}
+}

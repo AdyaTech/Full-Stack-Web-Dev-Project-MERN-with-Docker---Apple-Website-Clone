@@ -1,0 +1,250 @@
+body{
+    overflow-x: hidden;
+    background-color: white;
+}
+
+.sticky {
+  position: sticky;
+  top: 0;
+  z-index: 1001;
+  background: white;
+}
+.nav-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+
+.my-nav {
+    width: 1024px;
+    height: 44px;
+    background-color: white;
+    /* position: relative;
+    left: 159px;
+    bottom: 8px; */
+    display: flex;
+    z-index: 1001;
+}
+
+.apple-logo {
+    width: 30px;
+    height: 44px;
+    background-color: white;
+    position: relative;
+    left: 5px;
+}
+
+.store-dropdown {
+    width: 46px;
+    height: 44px;
+    background-color: white;
+    position: relative;
+    left: 30px;
+    display: inline-block;
+}
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-size: 13.5px;
+    border: none;
+    position: relative;
+    top: 11px;
+    font-family: "Inter", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu;
+    cursor: pointer;
+}
+
+.menu-overlay {
+  position: fixed;
+  inset: 0;
+  top: 42px; 
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+
+  transition: opacity 0.2s ease;
+
+  z-index: 998;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  z-index: 999;
+    position: relative;
+    top: 15px;
+    right: 227px;
+    background-color: white;
+    width: 84.8em;
+    height: 30rem;
+    opacity: 0;
+    transform: translateY(-10px);
+    pointer-events: none;
+    transition:
+        opacity 0.35s cubic-bezier(.2, 0, .2, 1),
+        transform 0.35s cubic-bezier(.2, 0, .2, 1);
+    
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+/* .dropdown-content a:hover {
+    background-color: #ddd;
+} */
+
+/* Show the dropdown menu on hover */
+.store-dropdown:hover ~ .menu-overlay,
+.store-dropdown:hover .dropdown-content {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+    pointer-events: auto;
+}
+
+.content-box{
+    display: flex;
+    gap: 30px;
+}
+
+.box{
+    background-color: white;
+    width: 300px;
+    height: 400px;
+    position: relative;
+    top: 30px;
+    left: 200px;
+    font-family: "Inter", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu;
+}
+
+.text-box{
+    color: #6e6e73;
+    font-size: 12px;
+    position: relative;
+    left: 15px;
+}
+.special{
+font-family: "Inter", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu;
+    font-size: 12px;
+line-height: 1px;
+    font-weight: 500;
+    color: #000;
+
+}
+
+.link-box{
+    font-family: "Inter", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu;
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: inherit;
+    line-height: 15px;
+}
+
+.mac-box{
+    position: relative;
+    left: 50px;
+}
+.mac-content-box{
+    position: relative;
+    right: 292px;
+}
+
+.ipad-box{
+    position: relative;
+    left: 70px;
+}
+.ipad-content-box{
+    position: relative;
+    right: 360px;
+}
+
+.iphone-box{
+    position: relative;
+    left: 90px;
+    width: 56px;
+}
+.iphone-content-box{
+    position: relative;
+    right: 425px;
+}
+
+.watch-box{
+    position: relative;
+    left: 110px;
+    width: 56px;
+}
+.watch-content-box{
+    position: relative;
+    right: 500px;
+}
+.pod-box{
+    position: relative;
+    left: 130px;
+    width: 60px;
+}
+.pod-content-box{
+    position: relative;
+    right: 577px;
+}
+.tv-box{
+    position: relative;
+    left: 150px;
+    width: 85px;
+}
+.tv-content-box{
+    position: relative;
+    right: 657px;
+}
+.ent-box{
+    position: relative;
+    left: 170px;
+    width: 100px;
+}
+.ent-content-box{
+    position: relative;
+    right: 763px;
+}
+.acc-box{
+    position: relative;
+    left: 190px;
+    width: 85px;
+}
+.acc-content-box{
+    position: relative;
+    right: 883px;
+}
+.sup-box{
+    position: relative;
+    left: 210px;
+    width: 65px;
+}
+.sup-content-box{
+    position: relative;
+    right: 987px;
+}
+.search-logo {
+    width: 30px;
+    height: 44px;
+    background-color: white;
+    position: relative;
+    left: 235px;
+}
+
+.cart-logo {
+    width: 30px;
+    height: 44px;
+    background-color: white;
+    position: relative;
+    left: 260px;
+}

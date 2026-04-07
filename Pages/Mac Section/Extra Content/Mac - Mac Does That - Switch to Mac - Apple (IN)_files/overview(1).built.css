@@ -1,0 +1,91 @@
+.card-big-financing {
+	flex-direction: column-reverse;
+	justify-content: center;
+	grid-gap: 40px;
+	gap: 40px;
+}
+.card-big-financing {
+	padding-block-end: initial;
+}
+.overview-worth-it-financing {
+	display: block;
+	--p-width: 137px;
+	--p-height: 96px;
+	width: var(--p-width);
+	height: var(--p-height);
+}
+.card-big-financing .card-big-image {
+	margin-block-start: inherit;
+}
+@media (max-width: 1068px) {
+	.overview-worth-it-financing {
+		display: block;
+		--p-width: 117px;
+		--p-height: 84px;
+		width: var(--p-width);
+		height: var(--p-height);
+	}
+}
+@media (max-width: 734px) {
+	.overview-worth-it-financing {
+		display: block;
+		--p-width: 70px;
+		--p-height: 50px;
+		width: var(--p-width);
+		height: var(--p-height);
+	}
+	.card-big-financing .card-big-headline {
+		font-size: 26px;
+	}
+}
+.footnote a {
+	text-decoration: underline;
+}
+.card-big-financing {
+	padding-block-start: inherit;
+	--padding-block: none;
+}
+
+.section-ways-to-save .card-small-business .card-small-headline {
+	max-width: 15ch;
+}
+.inline-media picture img {
+	width: auto;
+	height: auto;
+}
+
+.card-big-financing .card-big-copy, .card-big-financing .card-big-headline {
+	max-width: 544px;
+}
+@media (max-width: 1068px) {
+	.card-big-financing .card-big-copy, .card-big-financing .card-big-headline {
+		max-width: 466px;
+	}
+	.typography-hero-card-boc-headline {
+		font-size: 45px;
+	}
+}
+@media (max-width: 734px) {
+	.card-big-financing .card-big-copy, .card-big-financing .card-big-headline {
+		max-width: 180px;
+	}
+	.typography-hero-card-boc-headline {
+		font-size: 28px;
+	}
+}
+.footnote-subglyph.footnote-subglyph-diamond {
+	text-underline-offset: auto;
+	position: relative;
+	top: -0.4em;
+	font-size: 14px;
+}
+@media (max-width: 1068px) {
+	.footnote-subglyph.footnote-subglyph-diamond {
+		font-size: 12px;
+	}
+}
+@media (max-width: 734px) {
+	.footnote-subglyph.footnote-subglyph-diamond {
+		font-size: 10px;
+	}
+}

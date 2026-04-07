@@ -1,0 +1,119 @@
+.image-overview-apple-one-banner {
+	background-image: url(/in/icloud/images/overview/apple_one_banner__cj7806iyve2q_large.jpg);
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx) {
+	.image-overview-apple-one-banner {
+		background-image: url(/in/icloud/images/overview/apple_one_banner__cj7806iyve2q_large_2x.jpg);
+	}
+}
+@media only screen and (max-width: 1068px) {
+	.image-overview-apple-one-banner {
+		background-image: url(/in/icloud/images/overview/apple_one_banner__cj7806iyve2q_medium.jpg);
+	}
+}
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+	.image-overview-apple-one-banner {
+		background-image: url(/in/icloud/images/overview/apple_one_banner__cj7806iyve2q_medium_2x.jpg);
+	}
+}
+@media only screen and (max-width: 734px) {
+	.image-overview-apple-one-banner {
+		background-image: url(/in/icloud/images/overview/apple_one_banner__cj7806iyve2q_small.jpg);
+	}
+}
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+	.image-overview-apple-one-banner {
+		background-image: url(/in/icloud/images/overview/apple_one_banner__cj7806iyve2q_small_2x.jpg);
+	}
+}
+
+.section-apple-one .banner-logo {
+	background-image: url(/in/icloud/images/overview/apple_one_banner__cj7806iyve2q_large.jpg);
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx) {
+	.section-apple-one .banner-logo {
+		background-image: url(/in/icloud/images/overview/apple_one_banner__cj7806iyve2q_large_2x.jpg);
+	}
+}
+@media only screen and (max-width: 1068px) {
+	.section-apple-one .banner-logo {
+		background-image: url(/in/icloud/images/overview/apple_one_banner__cj7806iyve2q_medium.jpg);
+	}
+}
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+	.section-apple-one .banner-logo {
+		background-image: url(/in/icloud/images/overview/apple_one_banner__cj7806iyve2q_medium_2x.jpg);
+	}
+}
+@media only screen and (max-width: 734px) {
+	.section-apple-one .banner-logo {
+		background-image: url(/in/icloud/images/overview/apple_one_banner__cj7806iyve2q_small.jpg);
+	}
+}
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+	.section-apple-one .banner-logo {
+		background-image: url(/in/icloud/images/overview/apple_one_banner__cj7806iyve2q_small_2x.jpg);
+	}
+}
+
+.image-overview-shared-photos {
+	background-image: url(/in/icloud/images/overview/shared_photos__bshvmpi0e7jm_large.jpg);
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx) {
+	.image-overview-shared-photos {
+		background-image: url(/in/icloud/images/overview/shared_photos__bshvmpi0e7jm_large_2x.jpg);
+	}
+}
+@media only screen and (max-width: 1068px) {
+	.image-overview-shared-photos {
+		background-image: url(/in/icloud/images/overview/shared_photos__bshvmpi0e7jm_medium.jpg);
+	}
+}
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+	.image-overview-shared-photos {
+		background-image: url(/in/icloud/images/overview/shared_photos__bshvmpi0e7jm_medium_2x.jpg);
+	}
+}
+@media only screen and (max-width: 734px) {
+	.image-overview-shared-photos {
+		background-image: url(/in/icloud/images/overview/shared_photos__bshvmpi0e7jm_small.jpg);
+	}
+}
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+	.image-overview-shared-photos {
+		background-image: url(/in/icloud/images/overview/shared_photos__bshvmpi0e7jm_small_2x.jpg);
+	}
+}
+
+.section-always-on .overview_calendar_bg {
+	background-image: url(/in/icloud/images/overview/calendar_bg__dp7zk02hgdua_large.jpg);
+}
+
+@media (min-resolution: 144dpi), only screen and (min-resolution: 1.5dppx) {
+	.section-always-on .overview_calendar_bg {
+		background-image: url(/in/icloud/images/overview/calendar_bg__dp7zk02hgdua_large_2x.jpg);
+	}
+}
+
+@media only screen and (max-width: 1068px) {
+	.section-always-on .overview_calendar_bg {
+		background-image: url(/in/icloud/images/overview/calendar_bg__dp7zk02hgdua_medium.jpg);
+	}
+}
+
+@media only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+	.section-always-on .overview_calendar_bg {
+		background-image: url(/in/icloud/images/overview/calendar_bg__dp7zk02hgdua_medium_2x.jpg);
+	}
+}
+@media only screen and (max-width: 734px) {
+	.section-always-on .overview_calendar_bg {
+		background-image: url(/in/icloud/images/overview/calendar_bg__dp7zk02hgdua_small.jpg);
+	}
+}
+
+@media only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+	.section-always-on .overview_calendar_bg {
+		background-image: url(/in/icloud/images/overview/calendar_bg__dp7zk02hgdua_small_2x.jpg);
+	}
+}

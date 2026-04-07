@@ -1,0 +1,105 @@
+.section-design .dimensions-container.typography-ps-headline-super {
+	font-size: 38px;
+}
+@media (max-width: 1068px) {
+	.section-design .dimensions-container.typography-ps-headline-super {
+		font-size: 28px;
+	}
+}
+@media (max-width: 1068px) {
+	.section-design .dimensions-container.typography-ps-headline-super {
+		font-size: 24px;
+	}
+}
+.section-design .dimensions-container .dimensions-height::after, .section-design .dimensions-container .dimensions-width::after {
+	content: " ";
+}
+
+@media (max-width: 1068px) and (max-width: 1068px) {
+	.section-apple-intelligence .logo-apple-intelligence {
+		margin-inline-start: -20px;
+	}
+}
+
+@media (max-width: 734px) and (max-width: 734px) {
+	.section-apple-intelligence .logo-apple-intelligence {
+		margin-inline-start: 13px;
+	}
+}
+
+@media (max-width: 480px) and (max-width: 480px) {
+	.section-apple-intelligence .logo-apple-intelligence {
+		margin-inline-start: auto;
+	}
+}
+
+@media (max-width: 1068px) {
+	.l2-design-wrapper .design-hero {
+		padding-bottom: 76px;
+	}
+}
+
+@media (max-width: 734px) {
+	.l2-design-wrapper .design-hero .captions-container .embedded-caption-container.caption-2 {
+		padding-top: 0px;
+	}
+}
+
+/**** Ribbon update ******/
+.ribbon-diwali-2024 {
+	z-index: 9998;
+	position: relative;
+	top: 52px;
+}
+
+.ribbon-diwali-2024 .ac-ribbon__diwali-2024 {
+	--ribbon-background-color: #ebebeb !important;
+}
+
+.ribbon-diwali-2024 .ac-ribbon__diwali-2024-content {
+	width: 100%;
+}
+.footnotes a {
+	color: #1d1d1f;
+}
+.pad-top {
+	padding-top: 10px;
+}
+.caption-1 .pad-top {
+	padding-top: 32px;
+}
+@media (max-width: 734px) {
+	.page-overview br.small {
+		display: block;
+	}
+}
+
+/**** VP update ******/
+#gallery-item-apple-card .icon-card-copy-wrapper {
+	padding-top: 13px;
+}
+#gallery-item-get-to-know .icon-card-copy-wrapper {
+	margin-top: -7px;
+}
+
+@media (max-width: 734px) {
+	[data-component-list="MediaCardGallery"] .media-gallery .caption, [data-media-card-gallery] .media-gallery .caption {
+		margin: 30px;
+	}
+	.caption-1 .pad-top {
+		padding-top: 0;
+	}
+}
+
+.footnote-supglyph .diamond {
+	text-decoration: none;
+	font-size: 10px;
+	position: relative;
+	top: -7px;
+	color: #1d1d1f;
+	font-weight: bolder;
+}
+.footnote-supglyph .diamond:hover {
+	text-decoration: none;
+	color: #2997ff;
+}

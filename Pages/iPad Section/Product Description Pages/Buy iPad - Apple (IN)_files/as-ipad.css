@@ -1,0 +1,32 @@
+/*
+	iPad Select CSS
+	===============================================
+*/
+
+@media only screen and (max-width: 1023px) and (max-device-width: 736px) {
+    .rf-bfe-applecare-options-rightrail .rf-applecare-column-left {
+        overflow: hidden;
+    }
+}
+
+.rf-accessory-tile-dimension-colornav-label {
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: -.022em;
+}
+
+.rf-accessory-tile-dimension-colornav-label:lang(ar),
+.rf-accessory-tile-dimension-colornav-label:lang(ja),
+.rf-accessory-tile-dimension-colornav-label:lang(ko),
+.rf-accessory-tile-dimension-colornav-label:lang(zh),
+.rf-accessory-tile-dimension-colornav-label:lang(th) {
+    letter-spacing: 0;
+}
+
+.rf-bfe-dimension .rf-bfe-product-dimension-group.colornav{
+    display: block;
+}
+
+.rf-productlocator-filter .rc-dimension-colornav-link.colornav-link {
+    margin-bottom: 16px;
+}

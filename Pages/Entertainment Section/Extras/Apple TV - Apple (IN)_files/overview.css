@@ -1,0 +1,252 @@
+.plan-description a.footnote {
+	color: #868690;
+}
+
+.plan-description a.footnote:hover {
+	color: #299802;
+}
+
+/* Static tv animation fallback */
+
+.section-apple-one .tile-image {
+	background-image: url("/in/apple-tv/images/overview/apple_services_logos__ckrmxglbwt8i_large.png");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+	.section-apple-one .tile-image {
+		background-image: url("/in/apple-tv/images/overview/apple_services_logos__ckrmxglbwt8i_large_2x.png");
+	}
+}
+
+@media only screen and (max-width: 1068px) {
+	.section-apple-one .tile-image {
+		background-image: url("/in/apple-tv/images/overview/apple_services_logos__ckrmxglbwt8i_medium.png");
+	}
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+	.section-apple-one .tile-image {
+		background-image: url("/in/apple-tv/images/overview/apple_services_logos__ckrmxglbwt8i_medium_2x.png");
+	}
+}
+
+@media only screen and (max-width: 734px) {
+	.section-apple-one .tile-image {
+		background-image: url("/in/apple-tv/images/overview/apple_services_logos__ckrmxglbwt8i_small.png");
+	}
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+	.section-apple-one .tile-image {
+		background-image: url("/in/apple-tv/images/overview/apple_services_logos__ckrmxglbwt8i_small_2x.png");
+	}
+}
+
+.section-faq {
+	margin-top: -1px;
+}
+.image-student-plan {
+	background-image: url(/in/apple-tv/images/overview/student_plan__bm7yp0v4tf6u_large.jpg);
+}
+
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx) {
+	.image-student-plan {
+		background-image: url(/in/apple-tv/images/overview/student_plan__bm7yp0v4tf6u_large_2x.jpg);
+	}
+}
+
+@media only screen and (max-width: 1068px) {
+	.image-student-plan {
+		background-image: url(/in/apple-tv/images/overview/student_plan__bm7yp0v4tf6u_medium.jpg);
+	}
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+	.image-student-plan {
+		background-image: url(/in/apple-tv/images/overview/student_plan__bm7yp0v4tf6u_medium_2x.jpg);
+	}
+}
+
+@media only screen and (max-width: 734px) {
+	.image-student-plan {
+		background-image: url(/in/apple-tv/images/overview/student_plan__bm7yp0v4tf6u_small.jpg);
+	}
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+	.image-student-plan {
+		background-image: url(/in/apple-tv/images/overview/student_plan__bm7yp0v4tf6u_small_2x.jpg);
+	}
+}
+
+.bg-image-student-plan {
+	background-image: url(/in/apple-tv/images/overview/student_plan__bm7yp0v4tf6u_large.jpg);
+}
+
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx) {
+	.bg-image-student-plan {
+		background-image: url(/in/apple-tv/images/overview/student_plan__bm7yp0v4tf6u_large_2x.jpg);
+	}
+}
+
+@media only screen and (max-width: 1068px) {
+	.bg-image-student-plan {
+		background-image: url(/in/apple-tv/images/overview/student_plan__bm7yp0v4tf6u_medium.jpg);
+	}
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+	.bg-image-student-plan {
+		background-image: url(/in/apple-tv/images/overview/student_plan__bm7yp0v4tf6u_medium_2x.jpg);
+	}
+}
+
+@media only screen and (max-width: 734px) {
+	.bg-image-student-plan {
+		background-image: url(/in/apple-tv/images/overview/student_plan__bm7yp0v4tf6u_small.jpg);
+	}
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+	.bg-image-student-plan {
+		background-image: url(/in/apple-tv/images/overview/student_plan__bm7yp0v4tf6u_small_2x.jpg);
+	}
+}
+
+.image-icon-roku {
+	background-image: url(/in/apple-tv/images/overview/icon_roku__d3kr4gpcimoi_large.jpg);
+}
+
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx) {
+	.image-icon-roku {
+		background-image: url(/in/apple-tv/images/overview/icon_roku__d3kr4gpcimoi_large_2x.jpg);
+	}
+}
+
+@media only screen and (max-width: 1068px) {
+	.image-icon-roku {
+		background-image: url(/in/apple-tv/images/overview/icon_roku__d3kr4gpcimoi_medium.jpg);
+	}
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+	.image-icon-roku {
+		background-image: url(/in/apple-tv/images/overview/icon_roku__d3kr4gpcimoi_medium_2x.jpg);
+	}
+}
+
+@media only screen and (max-width: 734px) {
+	.image-icon-roku {
+		background-image: url(/in/apple-tv/images/overview/icon_roku__d3kr4gpcimoi_small.jpg);
+	}
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+	.image-icon-roku {
+		background-image: url(/in/apple-tv/images/overview/icon_roku__d3kr4gpcimoi_small_2x.jpg);
+	}
+}
+
+.image-air-play {
+	background-image: url(/in/apple-tv/images/overview/air_play__ct4e55wswlyu_large.jpg);
+}
+
+@media (min-resolution: 144dpi), only screen and (min-resolution: 1.5dppx) {
+	.image-air-play {
+		background-image: url(/in/apple-tv/images/overview/air_play__ct4e55wswlyu_large_2x.jpg);
+	}
+}
+
+@media only screen and (max-width: 1068px) {
+	.image-air-play {
+		background-image: url(/in/apple-tv/images/overview/air_play__ct4e55wswlyu_medium.jpg);
+	}
+}
+
+@media only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+	.image-air-play {
+		background-image: url(/in/apple-tv/images/overview/air_play__ct4e55wswlyu_medium_2x.jpg);
+	}
+}
+
+@media only screen and (max-width: 734px) {
+	.image-air-play {
+		background-image: url(/in/apple-tv/images/overview/air_play__ct4e55wswlyu_small.jpg);
+	}
+}
+
+@media only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+	.image-air-play {
+		background-image: url(/in/apple-tv/images/overview/air_play__ct4e55wswlyu_small_2x.jpg);
+	}
+}
+
+.bg-image-air-play {
+	background-repeat: no-repeat;
+	background-image: url(/in/apple-tv/images/overview/air_play__ct4e55wswlyu_large.jpg);
+}
+
+@media (min-resolution: 144dpi), only screen and (min-resolution: 1.5dppx) {
+	.bg-image-air-play {
+		background-image: url(/in/apple-tv/images/overview/air_play__ct4e55wswlyu_large_2x.jpg);
+	}
+}
+
+@media only screen and (max-width: 1068px) {
+	.bg-image-air-play {
+		background-repeat: no-repeat;
+		background-image: url(/in/apple-tv/images/overview/air_play__ct4e55wswlyu_medium.jpg);
+	}
+}
+
+@media only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+	.bg-image-air-play {
+		background-image: url(/in/apple-tv/images/overview/air_play__ct4e55wswlyu_medium_2x.jpg);
+	}
+}
+
+@media only screen and (max-width: 734px) {
+	.bg-image-air-play {
+		background-repeat: no-repeat;
+		background-image: url(/in/apple-tv/images/overview/air_play__ct4e55wswlyu_small.jpg);
+	}
+}
+@media only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+	.bg-image-air-play {
+		background-image: url(/in/apple-tv/images/overview/air_play__ct4e55wswlyu_small_2x.jpg);
+	}
+}
+
+.section-routers .image-router-airplay {
+	background-image: url(/in/apple-tv/images/overview/air_play__ct4e55wswlyu_large.jpg);
+}
+
+@media (min-resolution: 144dpi), only screen and (min-resolution: 1.5dppx) {
+	.section-routers .image-router-airplay {
+		background-image: url(/in/apple-tv/images/overview/air_play__ct4e55wswlyu_large_2x.jpg);
+	}
+}
+
+@media only screen and (max-width: 1068px) {
+	.section-routers .image-router-airplay {
+		background-image: url(/in/apple-tv/images/overview/air_play__ct4e55wswlyu_medium.jpg);
+	}
+}
+
+@media only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+	.section-routers .image-router-airplay {
+		background-image: url(/in/apple-tv/images/overview/air_play__ct4e55wswlyu_medium_2x.jpg);
+	}
+}
+
+@media only screen and (max-width: 734px) {
+	.section-routers .image-router-airplay {
+		background-image: url(/in/apple-tv/images/overview/air_play__ct4e55wswlyu_small.jpg);
+	}
+}
+
+@media only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+	.section-routers .image-router-airplay {
+		background-image: url(/in/apple-tv/images/overview/air_play__ct4e55wswlyu_small_2x.jpg);
+	}
+}

@@ -1,0 +1,9 @@
+#ac-globalfooter .ac-gf-buystrip-info-icon-homekit {
+    width: 100%;
+    height: 56px;
+    background-size: 100% 56px;
+    background-repeat: no-repeat;
+    background-image: url("/in/global/includes/buystrip/images/homekit/icon_home_large.svg")
+}
+
+

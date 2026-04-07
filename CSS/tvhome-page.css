@@ -1,0 +1,9 @@
+.section-paddlenav ul {
+    display: flex;
+    gap: 36px; /* adjust spacing here */
+    align-items: center;
+}
+.item-container {
+    display: flex;
+    transition: transform 0.6s ease;
+}

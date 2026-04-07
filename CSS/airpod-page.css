@@ -1,0 +1,15 @@
+.scroll-container {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+
+.card-set {
+  display: flex;
+  gap: 20px;
+}
+
+.gallery-item {
+  flex-shrink: 0;
+  width: 350px;
+}

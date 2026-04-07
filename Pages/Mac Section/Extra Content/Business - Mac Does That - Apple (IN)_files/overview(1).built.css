@@ -1,0 +1,85 @@
+.section-welcome .hero-card .icon-dollar {
+	
+	background-image: url(/in/business/mac-does-that/images/overview/welcome/icons/icon_dollar__d9ou1strjsa6_large.png);
+}
+
+@media(min-resolution:1.5dppx),
+(min-resolution:144dpi) {
+	.section-welcome .hero-card .icon-dollar {
+		background-image: url(/in/business/mac-does-that/images/overview/welcome/icons/icon_dollar__d9ou1strjsa6_large_2x.png)
+	}
+}
+
+@media(max-width:1068px) {
+	.section-welcome .hero-card .icon-dollar {
+		
+		background-image: url(/in/business/mac-does-that/images/overview/welcome/icons/icon_dollar__d9ou1strjsa6_medium.png)
+	}
+}
+
+@media(max-width:1068px)and (min-resolution:1.5dppx),
+(max-width:1068px)and (min-resolution:144dpi) {
+	.section-welcome .hero-card .icon-dollar {
+		background-image: url(/in/business/mac-does-that/images/overview/welcome/icons/icon_dollar__d9ou1strjsa6_medium_2x.png)
+	}
+}
+
+@media(max-width:734px) {
+	.section-welcome .hero-card .icon-dollar {
+		
+		background-image: url(/in/business/mac-does-that/images/overview/welcome/icons/icon_dollar__d9ou1strjsa6_small.png)
+	}
+}
+
+@media(max-width:734px)and (min-resolution:1.5dppx),
+(max-width:734px)and (min-resolution:144dpi) {
+	.section-welcome .hero-card .icon-dollar {
+		background-image: url(/in/business/mac-does-that/images/overview/welcome/icons/icon_dollar__d9ou1strjsa6_small_2x.png)
+	}
+}
+
+.card-big-savings .icon-dollar {
+	
+	background-image: url(/in/business/mac-does-that/images/overview/computer/savings/icon_b_dollar__cwu15mdlwuaa_large.png);
+	
+}
+
+@media(min-resolution:1.5dppx),
+(min-resolution:144dpi) {
+	.card-big-savings .icon-dollar {
+		background-image: url(/in/business/mac-does-that/images/overview/computer/savings/icon_b_dollar__cwu15mdlwuaa_large_2x.png)
+	}
+}
+
+@media(max-width:1068px) {
+	.card-big-savings .icon-dollar {
+		
+		background-image: url(/in/business/mac-does-that/images/overview/computer/savings/icon_b_dollar__cwu15mdlwuaa_medium.png)
+	}
+}
+
+@media(max-width:1068px)and (min-resolution:1.5dppx),
+(max-width:1068px)and (min-resolution:144dpi) {
+	.card-big-savings .icon-dollar {
+		background-image: url(/in/business/mac-does-that/images/overview/computer/savings/icon_b_dollar__cwu15mdlwuaa_medium_2x.png)
+	}
+}
+
+@media(max-width:734px) {
+	.card-big-savings .icon-dollar {
+		
+		background-image: url(/in/business/mac-does-that/images/overview/computer/savings/icon_b_dollar__cwu15mdlwuaa_small.png)
+	}
+}
+
+@media(max-width:734px)and (min-resolution:1.5dppx),
+(max-width:734px)and (min-resolution:144dpi) {
+	.card-big-savings .icon-dollar {
+		background-image: url(/in/business/mac-does-that/images/overview/computer/savings/icon_b_dollar__cwu15mdlwuaa_small_2x.png)
+	}
+}
+.fix-spacing {
+	margin-top: 0.8em;
+    display: block;
+	letter-spacing: normal;
+}

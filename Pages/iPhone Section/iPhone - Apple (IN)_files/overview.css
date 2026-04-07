@@ -1,0 +1,25 @@
+/* highlights disclaimer copy */
+.card-container .typography-inner-container-modal-copy-disclaimer {
+	font-weight: 400;
+	font-size: 14px;
+	margin-top: 1.8em;
+}
+.utility-modal-block .utility-modal-block-ctas {
+	display: block;
+}
+.footnotes a {
+	vertical-align: inherit;
+	color: inherit;
+}
+.footnote-supglyph .diamond {
+	text-decoration: none;
+	font-size: 10px;
+	position: relative;
+	top: -7px;
+	color: #1d1d1f;
+	font-weight: bolder;
+}
+.footnote-supglyph .diamond:hover {
+	text-decoration: none;
+	color: #2997ff;
+}

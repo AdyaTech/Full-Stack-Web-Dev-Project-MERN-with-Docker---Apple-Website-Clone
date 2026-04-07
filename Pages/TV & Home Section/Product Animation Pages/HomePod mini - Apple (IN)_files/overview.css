@@ -1,0 +1,17 @@
+.section-hub .apps-container {
+	max-width: 740px;
+}
+@media only screen and (max-width: 1068px) {
+	.section-hub .apps-container {
+		margin-top: -4px;
+	}
+}
+@media only screen and (max-width: 734px) {
+	.section-hub .apps-container {
+		margin-top: 54px;
+	}
+}
+
+.section-hub .apps-container .hub-homeapp, .section-hub .apps-container .hub-homekit {
+	margin-top: 0px;
+}

@@ -1,0 +1,17 @@
+.section-corporate-info .section-content .features-section.section-registered-office {
+	border-top:0;
+	padding-bottom: 50px;
+	text-align: center;
+}
+.section-corporate-info .section-content .features-section.section-registered-office .typography-headline-reduced{
+	width:100%;
+}
+@media only screen and (max-width: 734px) {
+	.section-corporate-info .section-content .features-section.section-registered-office {
+		
+		text-align: left;
+	}
+}
+.legal h4+* {
+	margin-top: 0;
+}

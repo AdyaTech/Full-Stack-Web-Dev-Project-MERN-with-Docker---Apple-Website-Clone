@@ -1,0 +1,16 @@
+.template-badge .badge-value {
+	font-size: 54px;
+}
+@media only screen and (max-width: 734px) {
+	.template-badge .badge-value {
+		font-size: 34px;
+	}
+}
+[aria-label="Personalised engraving unavailable"] {
+	background-image: none !important;
+}
+[aria-label="Personalised engraving unavailable"]::before {
+	content: "—";
+	display: inline-block;
+	margin-top: 50px;
+}

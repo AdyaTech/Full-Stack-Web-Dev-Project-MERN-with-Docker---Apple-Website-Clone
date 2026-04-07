@@ -1,0 +1,135 @@
+.section-identity {
+	min-height: 0;
+	height: 0;
+}
+@media only screen and (min-width: 735px) {
+	.tile .front-face .typography-headline-super-bold.headline-appear {
+		padding-right: 0;
+	}
+}
+/* 
+.section-keys .car-key .front-face {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.section-keys .car-key .typography-headline-super-bold {
+	max-width: 410px;
+	display: block;
+	word-wrap: break-word;
+}
+
+@media only screen and (max-width: 1068px) {
+	.section-keys .car-key .typography-headline-super-bold {
+		max-width: 310px;
+	}
+}
+
+@media only screen and (max-width: 734px) {
+	.section-keys .car-key .typography-headline-super-bold {
+		padding-top: 348px;
+	}
+}
+.section-keys .car-key .overview-car-key {
+	position: relative;
+	margin-top: 0px;
+	right: -114px;
+	left: initial;
+}
+
+@media only screen and (max-width: 1068px) {
+	.section-keys .car-key .overview-car-key {
+		right: -55px;
+	}
+}
+
+@media only screen and (max-width: 734px) {
+	.section-keys .car-key .overview-car-key {
+		right: unset;
+		top: auto;
+		left: 50%;
+		transform: translateX(-50%);
+		position: absolute;
+		bottom: 0px;
+		--p-height: 361px;
+	}
+	.section-keys .car-key .front-face {
+		min-height: 536px;
+		flex-direction: column;
+	}
+	.section-keys .car-key .typography-headline-super-bold {
+		padding-top: 0px;
+	}
+}
+ */
+
+
+
+.__picture-element__ {
+  
+  background-image: url(/in/wallet/images/overview/back_rewards_loyalty__c04sa9g7ky2q_large.jpg);
+  
+}
+
+@media (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi),
+  only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx) {
+  .__picture-element__ {
+    background-image: url(/in/wallet/images/overview/back_rewards_loyalty__c04sa9g7ky2q_large_2x.jpg);
+  }
+}
+@media only screen and (max-width: 1068px) {
+  .__picture-element__ {
+    background-repeat: no-repeat;
+    background-image: url(/in/wallet/images/overview/back_rewards_loyalty__c04sa9g7ky2q_medium.jpg);
+  }
+}
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .__picture-element__ {
+    background-image: url(/in/wallet/images/overview/back_rewards_loyalty__c04sa9g7ky2q_medium_2x.jpg);
+  }
+}
+@media only screen and (max-width: 734px) {
+  .__picture-element__ {
+    background-repeat: no-repeat;
+    background-image: url(/in/wallet/images/overview/back_rewards_loyalty__c04sa9g7ky2q_small.jpg);
+  }
+}
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 734px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+  .__picture-element__ {
+    background-image: url(/in/wallet/images/overview/back_rewards_loyalty__c04sa9g7ky2q_small_2x.jpg);
+  }
+}
+
+.tile.full .back-face .content-column {
+		padding-right: 80px;
+}
+@media only screen and (max-width: 1068px) {
+    .tile.full .back-face .content-column {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+
+
+.section-transit-and-tickets.tiles-grid .tiles-container .tile.theme-parks .right {
+	padding-left: 119px;
+}
+@media only screen and (max-width: 1068px) {
+	.section-transit-and-tickets.tiles-grid .tiles-container .tile.theme-parks .right {
+		padding-left: 68px;
+	}
+}
+
+@media only screen and (max-width: 734px) {
+	.section-transit-and-tickets.tiles-grid .tiles-container .tile.theme-parks .right {
+		padding-left: 0;
+		padding: 40px 26px 0;
+	}
+}
+

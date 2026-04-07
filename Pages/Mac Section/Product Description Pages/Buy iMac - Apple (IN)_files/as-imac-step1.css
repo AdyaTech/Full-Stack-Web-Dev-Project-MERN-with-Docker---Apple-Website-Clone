@@ -1,0 +1,94 @@
+body[data-mac-color='blue'] .dd-modal-decisions .dd-columns .dd-image {
+    background-color: rgb(237, 244, 252);
+}
+
+body[data-mac-color='purple'] .dd-modal-decisions .dd-columns .dd-image {
+    background-color: rgb(241, 240, 255);
+}
+
+body[data-mac-color='pink'] .dd-modal-decisions .dd-columns .dd-image {
+    background-color: rgb(255, 237, 241);
+}
+
+body[data-mac-color='orange'] .dd-modal-decisions .dd-columns .dd-image {
+    background-color: rgb(255, 240, 232);
+}
+
+body[data-mac-color='yellow'] .dd-modal-decisions .dd-columns .dd-image {
+    background-color: rgb(252, 249, 230);
+}
+
+body[data-mac-color='green'] .dd-modal-decisions .dd-columns .dd-image {
+    background-color: rgb(237, 250, 244);
+}
+
+body[data-mac-color='silver'] .dd-modal-decisions .dd-columns .dd-image {
+    background-color: rgb(245, 245, 247);
+}
+
+.rf-bfe-summary .rf-bfe-product-requirementtext {
+    color: #6E6E73;
+    line-height: 1.2857742857;
+}
+
+.rf-bfe-summary .rf-bfe-product-requirementtext:lang(ko) {
+    line-height: 1.3529611765;
+}
+
+@media only screen and (max-width: 1023px) and (max-device-width: 736px) and (orientation: landscape) {
+    body[data-mac-color='blue'] {
+        div[data-observer-key='paymentOptions'] .rf-macbfe-gallerymow .rf-bfe-gallerymow-content,
+        div[data-observer-key='tradein'] .rf-macbfe-gallerymow .rf-bfe-gallerymow-content,
+        div[data-observer-key='mouse_and_track_pad-pointingDeviceType'] .rf-macbfe-gallerymow .rf-bfe-gallerymow-content {
+            background-color: rgb(237, 244, 252);
+        }
+    }
+
+    body[data-mac-color='purple'] {
+        div[data-observer-key='paymentOptions'] .rf-macbfe-gallerymow .rf-bfe-gallerymow-content,
+        div[data-observer-key='tradein'] .rf-macbfe-gallerymow .rf-bfe-gallerymow-content,
+        div[data-observer-key='mouse_and_track_pad-pointingDeviceType'] .rf-macbfe-gallerymow .rf-bfe-gallerymow-content {
+            background-color: rgb(241, 240, 255);
+        }
+    }
+
+    body[data-mac-color='pink'] {
+        div[data-observer-key='paymentOptions'] .rf-macbfe-gallerymow .rf-bfe-gallerymow-content,
+        div[data-observer-key='tradein'] .rf-macbfe-gallerymow .rf-bfe-gallerymow-content,
+        div[data-observer-key='mouse_and_track_pad-pointingDeviceType'] .rf-macbfe-gallerymow .rf-bfe-gallerymow-content {
+            background-color: rgb(255, 237, 241);
+        }
+    }
+
+    body[data-mac-color='orange'] {
+        div[data-observer-key='paymentOptions'] .rf-macbfe-gallerymow .rf-bfe-gallerymow-content,
+        div[data-observer-key='tradein'] .rf-macbfe-gallerymow .rf-bfe-gallerymow-content,
+        div[data-observer-key='mouse_and_track_pad-pointingDeviceType'] .rf-macbfe-gallerymow .rf-bfe-gallerymow-content {
+            background-color: rgb(255, 240, 232);
+        }
+    }
+
+    body[data-mac-color='yellow'] {
+        div[data-observer-key='paymentOptions'] .rf-macbfe-gallerymow .rf-bfe-gallerymow-content,
+        div[data-observer-key='tradein'] .rf-macbfe-gallerymow .rf-bfe-gallerymow-content,
+        div[data-observer-key='mouse_and_track_pad-pointingDeviceType'] .rf-macbfe-gallerymow .rf-bfe-gallerymow-content {
+            background-color: rgb(252, 249, 230);
+        }
+    }
+
+    body[data-mac-color='green'] {
+        div[data-observer-key='paymentOptions'] .rf-macbfe-gallerymow .rf-bfe-gallerymow-content,
+        div[data-observer-key='tradein'] .rf-macbfe-gallerymow .rf-bfe-gallerymow-content,
+        div[data-observer-key='mouse_and_track_pad-pointingDeviceType'] .rf-macbfe-gallerymow .rf-bfe-gallerymow-content {
+            background-color: rgb(237, 250, 244);
+        }
+    }
+
+    body[data-mac-color='silver'] {
+        div[data-observer-key='paymentOptions'] .rf-macbfe-gallerymow .rf-bfe-gallerymow-content,
+        div[data-observer-key='tradein'] .rf-macbfe-gallerymow .rf-bfe-gallerymow-content,
+        div[data-observer-key='mouse_and_track_pad-pointingDeviceType'] .rf-macbfe-gallerymow .rf-bfe-gallerymow-content {
+            background-color: rgb(245, 245, 247);
+        }
+    }
+}

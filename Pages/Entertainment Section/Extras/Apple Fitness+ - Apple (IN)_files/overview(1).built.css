@@ -1,0 +1,35 @@
+.tile-music .tile-content {
+	gap: 300px;
+}
+@media (max-width: 1068px) {
+	.tile-music .tile-content {
+		gap: 60px;
+	}
+}
+
+.tile-music p {
+	color: #000000;
+}
+
+.tile-music .tile-copy a:last-child {
+	margin-block-start: var(--sk-headline-plus-first-element-margin, 0.8em);
+}
+.section-music{
+    padding-bottom: 120px;
+}
+
+@media (max-width: 734px) {
+.section-music .tile-content {
+    flex-direction: column;
+    align-items: start;
+    grid-gap: 0;
+    gap: 0;
+    height: 100%;
+    box-sizing: border-box;
+      
+}
+.section-music .tile-image {
+      align-self: center;
+      padding-top: 40px;
+            }
+}

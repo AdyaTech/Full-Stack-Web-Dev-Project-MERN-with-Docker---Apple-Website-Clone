@@ -1,0 +1,557 @@
+body.android.android-v1 section.section.section-upgrade, body.android.android-v2 section.section.section-upgrade, section.section.section-upgrade.section-upgrade-android {
+	display: none;
+}
+
+body.android.android-v1 section.section.section-upgrade.section-upgrade-android, body.android.android-v2 section.section.section-upgrade.section-upgrade-android, section.section.section-upgrade {
+	display: block;
+}
+
+.section-upgrade-android .bento-subheading, .section-upgrade-android .bento-subheading + p {
+	display: inline;
+}
+
+@media (max-width: 734px) {
+	section.section.section-upgrade-android .inline-upgrader-android-wrap {
+		margin-inline-start: var(--ps-spacing-20);
+	}
+}
+
+.upgrader-hero-image {
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+	border-radius: 28px;
+}
+
+.upgrader-hero-image .positioned-media-element {
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+	display: block;
+	width: var(--p-width);
+	height: var(--p-height);
+	--p-width: 1260px;
+	--p-height: 680px;
+	border-radius: 28px;
+	overflow: hidden;
+}
+
+@media (max-width: 1068px) and (max-width: 1068px) {
+	.upgrader-hero-image .positioned-media-element {
+		--p-width: auto;
+		--p-height: auto;
+		/*transform: translate(-50%, -10%);*/
+	}
+	.upgrader-hero-image .positioned-media-element img {
+		width: 100%;
+		height: auto;
+	}
+}
+
+@media (max-width: 734px) and (max-width: 734px) {
+	.upgrader-hero-image .positioned-media-element {
+		--p-width: 400px;
+		--p-height: 440px;
+	}
+
+	.upgrader-hero-image .positioned-media-element img {
+		margin-top: -40px;
+	}
+}
+
+.upgrader-logo-icon-guided-shopping img {
+	width: 60px;
+	height: 30px;
+	margin-top: 7px;
+}
+
+.upgrader-logo-icon-data-transfer img {
+	width: 41px;
+	height: 37px;
+}
+
+.upgrader-logo-icon-bank-offer img {
+	width: 40px;
+	height: 29px;
+	margin-top: 8px;
+}
+
+section.section.section-upgrade.section-upgrade-android .copy-headline {
+	color: #f5f5f7;
+	margin-bottom: var(--ps-spacing-20);
+}
+
+/*section.section.section-upgrade.section-upgrade-android .copy-eyebrow {
+	margin-bottom: var(--ps-spacing-30);
+}*/
+
+@media (max-width: 1068px) {
+	section.section.section-upgrade.section-upgrade-android .copy-headline {
+		margin-bottom: var(--ps-spacing-0);
+	}
+}
+
+@media (max-width: 734px) {
+	section.section.section-upgrade.section-upgrade-android .copy-headline {
+		margin-inline-start: var(--ps-spacing-20);
+		margin-bottom: var(--ps-spacing-0);
+	}
+
+	/*section.section.section-upgrade.section-upgrade-android .copy-eyebrow {
+		margin-bottom: var(--ps-spacing-20);
+		margin-top: var(--ps-spacing-20);
+	}*/
+}
+
+.inline-upgrader-android-wrap .bento-copy {
+	padding-right: var(--ps-spacing-40);
+}
+
+.bento-copy-spacing-top {
+	/*margin-top:var(--ps-spacing-40);*/
+}
+
+.bento-icon-wrap {
+	margin-bottom: var(--ps-spacing-12);
+}
+/*@media (min-width: 1069px) {
+	.bento-icon-wrap.guided-shopping {
+		margin-bottom: var(--ps-spacing-26);
+	}
+	.bento-icon-wrap.bank-offers {
+		margin-bottom: var(--ps-spacing-26);
+	}
+}*/
+.section-upgrade-android .card .banner-card-header, .section-upgrade-android .banner-card-copy {
+	color: rgb(29, 29, 31);
+}
+
+.section-upgrade-android .card {
+	margin-top: var(--ps-spacing-60);
+}
+
+.section-upgrade-android .banner-card-row {
+	background: #fff;
+	justify-content: space-between;
+}
+.section-upgrade-android .banner-card-row .banner-card-copy-column {
+}
+@media (min-width: 1069px) {
+	.section-upgrade-android .banner-card-row {
+		flex-direction: column;
+		align-items: center;
+		flex-flow: column;
+	}
+
+	.section-upgrade-android .banner-card-row {
+	}
+
+	.section-upgrade-android .banner-card-row .banner-card-copy-column {
+		--h-padding: clamp(0px, 6.25vw, 120px);
+		height: 100%;
+		/*padding-inline-start: var(--h-padding);*/
+		text-align: center;
+	}
+}
+.section-upgrade-android .banner-card-copy-column {
+	padding-top: 64px;
+	max-width: 560px;
+}
+.section-upgrade-android .banner-card-asset-column {
+	/*margin-left: auto;*/
+	/*margin-right: 108px;*/
+}
+@media (max-width: 1068px) {
+	.section-upgrade-android .banner-card-copy-column {
+		max-width: 400px;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+		padding-top: 64px;
+	}
+	.section-upgrade-android .banner-card-copy {
+		margin-top: 0px;
+	}
+	.section-upgrade-android .banner-card-asset-column {
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 20px;
+	}
+}
+@media (max-width: 734px) {
+	.section-upgrade-android .banner-card-copy-column {
+		max-width: calc(100% - 40px);
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+		padding-top: 54px;
+	}
+	.section-upgrade-android .banner-card-copy {
+		margin-top: 0px;
+	}
+	.section-upgrade-android .banner-card-asset-column {
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+.android-v1 .section-upgrade-android .compare-tile-wrap-variant-b, .android-v2 .section-upgrade-android .compare-tile-wrap-variant-a, .android-v2 .section-upgrade-android .typography-ps-upgrade-headline-variant-a, .android-v1 .section-upgrade-android .typography-ps-upgrade-headline-variant-b {
+	display: none !important;
+}
+.android-v2 .section-upgrade-android .compare-tile-wrap-variant-b {
+	display: grid;
+}
+.android-v1 .section-upgrade-android .compare-tile-wrap-variant-a, .android-v1 .section-upgrade-android .typography-ps-upgrade-headline-variant-a {
+	display: block;
+}
+
+.android-v1 .section-upgrade-android .compare-tile-wrap-variant-a.upgrader-hero-image, .android-v2 section.section.section-upgrade.section-upgrade-android .compare-tile-wrap-variant-b {
+	margin-top: 32px;
+}
+@media (max-width: 734px) {
+	.android-v1 .section-upgrade-android .compare-tile-wrap-variant-a.upgrader-hero-image, .android-v2 section.section.section-upgrade.section-upgrade-android .compare-tile-wrap-variant-b {
+		margin-top: 24px;
+	}
+}
+.android.android-v1 .section-upgrade-banner, .android.android-v2 .section-upgrade-banner {
+	display: none;
+}
+section.section.section-upgrade.section-upgrade-android .inline-wrap .compare-tile-battery .ps-stat .battery-icon-wrap .bg-upgrade-image {
+	bottom: 0;
+	transform: translate(1px, -0px);
+}
+section.section.section-upgrade.section-upgrade-android .inline-wrap .compare-tile-battery .ps-stat .battery-icon-wrap.battery-icon-wrap-block {
+	display: block;
+	margin-inline-end: 0;
+}
+section.section.section-upgrade.section-upgrade-android .typography-ps-body-reduced {
+	font-size: 21px;
+	line-height: 1.381002381;
+	font-weight: 600;
+	letter-spacing: 0.011em;
+	font-family:
+		SF Pro Display,
+		SF Pro Icons,
+		Helvetica Neue,
+		Helvetica,
+		Arial,
+		sans-serif;
+	margin-bottom: var(--ps-spacing-20);
+	margin-top: var(--ps-spacing-20);
+}
+section.section.section-upgrade.section-upgrade-android a.typography-ps-body-reduced {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+@media (max-width: 1068px) {
+	section.section.section-upgrade.section-upgrade-android .typography-ps-body-reduced {
+		font-size: 19px;
+		line-height: 1.4211026316;
+		font-weight: 600;
+		letter-spacing: 0.012em;
+		font-family:
+			SF Pro Display,
+			SF Pro Icons,
+			Helvetica Neue,
+			Helvetica,
+			Arial,
+			sans-serif;
+	}
+}
+@media (max-width: 734px) {
+	section.section.section-upgrade.section-upgrade-android .typography-ps-body-reduced {
+		margin-left: 0px;
+		max-width: 320px;
+		margin-bottom: 10px;
+	}
+}
+
+section.section.section-upgrade .inline-wrap .compare-tile-design {
+	--tile-image-width: 338px;
+	--tile-image-height: 56px;
+	grid-gap: 0;
+	gap: 0;
+	position: relative;
+}
+
+@media (max-width: 1068px) {
+	section.section.section-upgrade .inline-wrap .compare-tile-design {
+		--tile-image-width: 246px;
+		--tile-image-height: 92px;
+	}
+}
+
+@media (max-width: 734px) {
+	section.section.section-upgrade .inline-wrap .compare-tile-design {
+		--tile-image-width: 200px;
+		--tile-image-height: 80px;
+	}
+}
+/*section.section.section-upgrade .inline-wrap .compare-tile-design .upgrade-picture-wrap {
+	align-items: center;
+	position: relative;
+	height: 100%;
+	width: var(--tile-image-width);
+}
+@media (max-width: 1068px) {
+	section.section.section-upgrade .inline-wrap .compare-tile-design .upgrade-picture-wrap {
+		margin-inline-start: auto;
+		width: 100%;
+	}
+}*/
+
+section.section.section-upgrade.section-upgrade-android .inline-wrap .compare-tile-center-stage .bg-upgrade-image.ready-to-load {
+	background-size: 132px 272px;
+	background-repeat: no-repeat;
+	background-image: url(/in/iphone-17-pro/images/overview/upgrade/center_stage__8qi0npohbgye_large.jpg);
+}
+
+@media (min-resolution: 1.5dppx), (min-resolution: 144dpi) {
+	section.section.section-upgrade.section-upgrade-android .inline-wrap .compare-tile-center-stage .bg-upgrade-image.ready-to-load {
+		background-image: url(/in/iphone-17-pro/images/overview/upgrade/center_stage__8qi0npohbgye_large_2x.jpg);
+	}
+}
+
+@media (max-width: 1068px) {
+	section.section.section-upgrade.section-upgrade-android .inline-wrap .compare-tile-center-stage .bg-upgrade-image.ready-to-load {
+		background-size: 92px 190px;
+		background-repeat: no-repeat;
+		background-image: url(/in/iphone-17-pro/images/overview/upgrade/center_stage__8qi0npohbgye_medium.jpg);
+	}
+}
+
+@media (max-width: 1068px) and (min-resolution: 1.5dppx), (max-width: 1068px) and (min-resolution: 144dpi) {
+	section.section.section-upgrade.section-upgrade-android .inline-wrap .compare-tile-center-stage .bg-upgrade-image.ready-to-load {
+		background-image: url(/in/iphone-17-pro/images/overview/upgrade/center_stage__8qi0npohbgye_medium_2x.jpg);
+	}
+}
+
+@media (max-width: 734px) {
+	section.section.section-upgrade.section-upgrade-android .inline-wrap .compare-tile-center-stage .bg-upgrade-image.ready-to-load {
+		background-size: 80px 164px;
+		background-repeat: no-repeat;
+		background-image: url(/in/iphone-17-pro/images/overview/upgrade/center_stage__8qi0npohbgye_small.jpg);
+	}
+}
+
+@media (max-width: 734px) and (min-resolution: 1.5dppx), (max-width: 734px) and (min-resolution: 144dpi) {
+	section.section.section-upgrade.section-upgrade-android .inline-wrap .compare-tile-center-stage .bg-upgrade-image.ready-to-load {
+		background-image: url(/in/iphone-17-pro/images/overview/upgrade/center_stage__8qi0npohbgye_small_2x.jpg);
+	}
+}
+
+section.section.section-upgrade.section-upgrade-android .inline-wrap .compare-tile-center-stage .bg-upgrade-image-ios-26.ready-to-load {
+	background-size: 132px 272px;
+	background-repeat: no-repeat;
+	background-image: url(/in/iphone-17-pro/images/overview/upgrade/customise_large.jpg);
+}
+
+@media (min-resolution: 1.5dppx), (min-resolution: 144dpi) {
+	section.section.section-upgrade.section-upgrade-android .inline-wrap .compare-tile-center-stage .bg-upgrade-image-ios-26.ready-to-load {
+		background-image: url(/in/iphone-17-pro/images/overview/upgrade/customise_large_2x.jpg);
+	}
+}
+
+@media (max-width: 1068px) {
+	section.section.section-upgrade.section-upgrade-android .inline-wrap .compare-tile-center-stage .bg-upgrade-image-ios-26.ready-to-load {
+		background-size: 92px 190px;
+		background-repeat: no-repeat;
+		background-image: url(/in/iphone-17-pro/images/overview/upgrade/customise_medium.jpg);
+	}
+}
+
+@media (max-width: 1068px) and (min-resolution: 1.5dppx), (max-width: 1068px) and (min-resolution: 144dpi) {
+	section.section.section-upgrade.section-upgrade-android .inline-wrap .compare-tile-center-stage .bg-upgrade-image-ios-26.ready-to-load {
+		background-image: url(/in/iphone-17-pro/images/overview/upgrade/customise_medium_2x.jpg);
+	}
+}
+
+@media (max-width: 734px) {
+	section.section.section-upgrade.section-upgrade-android .inline-wrap .compare-tile-center-stage .bg-upgrade-image-ios-26.ready-to-load {
+		background-size: 80px 164px;
+		background-repeat: no-repeat;
+		background-image: url(/in/iphone-17-pro/images/overview/upgrade/customise_small.jpg);
+	}
+}
+
+@media (max-width: 734px) and (min-resolution: 1.5dppx), (max-width: 734px) and (min-resolution: 144dpi) {
+	section.section.section-upgrade.section-upgrade-android .inline-wrap .compare-tile-center-stage .bg-upgrade-image-ios-26.ready-to-load {
+		background-image: url(/in/iphone-17-pro/images/overview/upgrade/customise_small_2x.jpg);
+	}
+}
+
+section.section.section-upgrade .inline-wrap .compare-tile-center-stage-retina .bg-upgrade-image {
+	--tile-image-width: 226px;
+	--tile-image-height: 212px;
+	width: var(--tile-image-width);
+	height: var(--tile-image-height);
+}
+@media (max-width: 1068px) {
+	section.section.section-upgrade .inline-wrap .compare-tile-center-stage-retina .bg-upgrade-image {
+		--tile-image-width: 166px;
+		--tile-image-height: 156px;
+		width: var(--tile-image-width);
+		height: var(--tile-image-height);
+	}
+}
+@media (max-width: 734px) {
+	section.section.section-upgrade .inline-wrap .compare-tile-center-stage-retina .bg-upgrade-image {
+		--tile-image-width: 128px;
+		--tile-image-height: 120px;
+		width: var(--tile-image-width);
+		height: var(--tile-image-height);
+	}
+}
+
+section.section.section-upgrade.section-upgrade-android .inline-wrap .compare-tile-center-stage-retina .bg-upgrade-image-superretina.ready-to-load {
+	background-size: 226px 212px;
+	background-repeat: no-repeat;
+	background-image: url(/in/iphone-17-pro/images/overview/upgrade/retina_large.jpg);
+}
+
+@media (min-resolution: 1.5dppx), (min-resolution: 144dpi) {
+	section.section.section-upgrade.section-upgrade-android .inline-wrap .compare-tile-center-stage-retina .bg-upgrade-image-superretina.ready-to-load {
+		background-image: url(/in/iphone-17-pro/images/overview/upgrade/retina_large_2x.jpg);
+	}
+}
+
+@media (max-width: 1068px) {
+	section.section.section-upgrade.section-upgrade-android .inline-wrap .compare-tile-center-stage-retina .bg-upgrade-image-superretina.ready-to-load {
+		background-size: 166px 156px;
+		background-repeat: no-repeat;
+		background-image: url(/in/iphone-17-pro/images/overview/upgrade/retina_medium.jpg);
+	}
+}
+
+@media (max-width: 1068px) and (min-resolution: 1.5dppx), (max-width: 1068px) and (min-resolution: 144dpi) {
+	section.section.section-upgrade.section-upgrade-android .inline-wrap .compare-tile-center-stage-retina .bg-upgrade-image-superretina.ready-to-load {
+		background-image: url(/in/iphone-17-pro/images/overview/upgrade/retina_medium_2x.jpg);
+	}
+}
+
+@media (max-width: 734px) {
+	section.section.section-upgrade.section-upgrade-android .inline-wrap .compare-tile-center-stage-retina .bg-upgrade-image-superretina.ready-to-load {
+		background-size: 128px 120px;
+		background-repeat: no-repeat;
+		background-image: url(/in/iphone-17-pro/images/overview/upgrade/retina_small.jpg);
+	}
+}
+
+@media (max-width: 734px) and (min-resolution: 1.5dppx), (max-width: 734px) and (min-resolution: 144dpi) {
+	section.section.section-upgrade.section-upgrade-android .inline-wrap .compare-tile-center-stage-retina .bg-upgrade-image-superretina.ready-to-load {
+		background-image: url(/in/iphone-17-pro/images/overview/upgrade/retina_small_2x.jpg);
+	}
+}
+
+section.section.section-upgrade .inline-wrap .compare-tile-center-stage-chip .bg-upgrade-image {
+	--tile-image-width: 226px;
+	--tile-image-height: 176px;
+	width: var(--tile-image-width);
+	height: var(--tile-image-height);
+	margin-top: 1em;
+}
+@media (max-width: 1068px) {
+	section.section.section-upgrade .inline-wrap .compare-tile-center-stage-chip .bg-upgrade-image {
+		--tile-image-width: 166px;
+		--tile-image-height: 128px;
+		width: var(--tile-image-width);
+		height: var(--tile-image-height);
+		margin-top: 0.8em;
+	}
+}
+@media (max-width: 734px) {
+	section.section.section-upgrade .inline-wrap .compare-tile-center-stage-chip .bg-upgrade-image {
+		--tile-image-width: 128px;
+		--tile-image-height: 100px;
+		width: var(--tile-image-width);
+		height: var(--tile-image-height);
+		margin-top: 0.4em;
+	}
+}
+
+section.section.section-upgrade.section-upgrade-android .inline-wrap .compare-tile-center-stage-chip .bg-upgrade-image-chip.ready-to-load {
+	background-size: 226px 176px;
+	background-repeat: no-repeat;
+	background-image: url(/in/iphone-17-pro/images/overview/upgrade/chip_large.jpg);
+}
+
+@media (min-resolution: 1.5dppx), (min-resolution: 144dpi) {
+	section.section.section-upgrade.section-upgrade-android .inline-wrap .compare-tile-center-stage-chip .bg-upgrade-image-chip.ready-to-load {
+		background-image: url(/in/iphone-17-pro/images/overview/upgrade/chip_large_2x.jpg);
+	}
+}
+
+@media (max-width: 1068px) {
+	section.section.section-upgrade.section-upgrade-android .inline-wrap .compare-tile-center-stage-chip .bg-upgrade-image-chip.ready-to-load {
+		background-size: 166px 128px;
+		background-repeat: no-repeat;
+		background-image: url(/in/iphone-17-pro/images/overview/upgrade/chip_medium.jpg);
+	}
+}
+
+@media (max-width: 1068px) and (min-resolution: 1.5dppx), (max-width: 1068px) and (min-resolution: 144dpi) {
+	section.section.section-upgrade.section-upgrade-android .inline-wrap .compare-tile-center-stage-chip .bg-upgrade-image-chip.ready-to-load {
+		background-image: url(/in/iphone-17-pro/images/overview/upgrade/chip_medium_2x.jpg);
+	}
+}
+
+@media (max-width: 734px) {
+	section.section.section-upgrade.section-upgrade-android .inline-wrap .compare-tile-center-stage-chip .bg-upgrade-image-chip.ready-to-load {
+		background-size: 128px 100px;
+		background-repeat: no-repeat;
+		background-image: url(/in/iphone-17-pro/images/overview/upgrade/chip_small.jpg);
+	}
+}
+
+@media (max-width: 734px) and (min-resolution: 1.5dppx), (max-width: 734px) and (min-resolution: 144dpi) {
+	section.section.section-upgrade.section-upgrade-android .inline-wrap .compare-tile-center-stage-chip .bg-upgrade-image-chip.ready-to-load {
+		background-image: url(/in/iphone-17-pro/images/overview/upgrade/chip_small_2x.jpg);
+	}
+}
+@media (max-width: 734px) {
+	section.section.section-upgrade.section-upgrade-android .trade-in-content {
+		margin-top: 46px;
+		margin-inline-start: 14px;
+	}
+	section.section.section-upgrade.section-upgrade-android .trade-in-content .copy-eyebrow {
+		margin-bottom: 10px;
+	}
+}
+.android-upgrader-trade-in-tile img {
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+	display: block;
+    vertical-align: bottom;
+}
+@media (max-width: 1068px) {
+	section.section.section-upgrade.section-upgrade-android .inline-wrap .compare-tile-battery .ps-stat .battery-icon-wrap {
+		--battery-padding-offset: 5px;
+	}
+}
+.typography-headline-move-to-ios {
+    font-size: 32px;
+    line-height: 1.125;
+    font-weight: 600;
+    letter-spacing: .004em;
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    --sk-headline-text-color: rgb(29, 29, 31);
+}
+@media(max-width:1068px) {
+    .typography-headline-move-to-ios {
+        font-size: 28px;
+        line-height: 1.1428571429;
+        font-weight: 600;
+        letter-spacing: .007em;
+        font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif
+    }
+}
+@media(max-width:734px) {
+    .typography-headline-move-to-ios {
+        font-size: 24px;
+        line-height: 1.1666666667;
+        font-weight: 600;
+        letter-spacing: .009em;
+        font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif
+    }
+}

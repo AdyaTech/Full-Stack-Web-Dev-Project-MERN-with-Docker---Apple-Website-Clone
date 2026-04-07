@@ -1,0 +1,21 @@
+@media only screen and (max-width: 734px) {
+	.subsection-internals .keyline-measurement.measurement-width {
+		top: 42px;
+	}
+}
+
+.section-compare .product-pricing.mac-mini-product-pricing, .section-compare .product-pricing {
+	max-width: 200px;
+}
+
+@media only screen and (max-width: 1068px) {
+	.section-compare .product-pricing.mac-mini-product-pricing, .section-compare .product-pricing {
+		max-width: 150px;
+	}
+}
+
+@media only screen and (max-width: 734px) {
+	.section-compare .product-pricing.mac-mini-product-pricing, .section-compare .product-pricing {
+		max-width: 124px;
+	}
+}

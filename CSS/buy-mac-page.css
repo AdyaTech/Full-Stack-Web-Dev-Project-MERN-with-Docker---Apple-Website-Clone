@@ -1,0 +1,27 @@
+html {
+  scroll-behavior: smooth;
+}
+#shelf-1_section {
+  scroll-margin-top: 100px; /* adjust to navbar height */
+}
+#shelf-2_section {
+  scroll-margin-top: 100px; /* adjust to navbar height */
+}
+#shelf-3_section {
+  scroll-margin-top: 100px; /* adjust to navbar height */
+}
+#shelf-4_section {
+  scroll-margin-top: 100px; /* adjust to navbar height */
+}
+#shelf-5_section {
+  scroll-margin-top: 100px; /* adjust to navbar height */
+}
+#shelf-6_section {
+  scroll-margin-top: 100px; /* adjust to navbar height */
+}
+#shelf-7_section {
+  scroll-margin-top: 100px; /* adjust to navbar height */
+}
+#shelf-8_section {
+  scroll-margin-top: 100px; /* adjust to navbar height */
+}

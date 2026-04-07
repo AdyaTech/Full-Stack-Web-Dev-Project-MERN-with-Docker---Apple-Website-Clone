@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<!-- saved from url=(0060)https://investor.apple.com/Q4IdpLoginCallback.aspx?error=401 -->
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-ca" xml:lang="en-ca"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>
+	Redirecting to Studio
+</title></head>
+<body>
+    <script>
+        window.onload = function () {
+            const params =  new URLSearchParams(location.search);
+            var idToken = params.get("id_token");
+            if (!isNaN(idToken)) {
+                idToken = null;
+            }
+
+            var mainWin = (window.opener) ? window.opener : window.parent;
+            mainWin.postMessage({
+                name: 'q4l_idp_id_token_message',
+                idToken: idToken
+            }, window);
+        }
+    </script>
+
+
+</body></html>

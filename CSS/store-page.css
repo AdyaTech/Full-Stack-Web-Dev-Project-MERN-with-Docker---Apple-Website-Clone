@@ -1,0 +1,15 @@
+.rf-cards-scroller-content {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+
+.rf-cards-scroller-platter {
+  display: flex;
+  gap: 16px;
+}
+
+.rf-cards-scroller-itemview {
+  flex: 0 0 auto;
+}
+

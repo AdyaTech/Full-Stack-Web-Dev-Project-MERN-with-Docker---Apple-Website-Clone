@@ -1,0 +1,101 @@
+@media (min-width: 735px) {
+	.section-plans .gallery .tiles {
+		flex-direction: row;
+		align-items: center;
+	}
+	.section-plans .gallery .tiles .tile-content {
+		order: 2;
+		max-width: calc(100% - 372px);
+		padding: 28px 20px 20px;
+	}
+	.section-plans .gallery .tiles picture {
+		order: 1;
+	}
+}
+.overview-plans-iphone-single {
+	display: block;
+	width: var(--p-width);
+	height: var(--p-height);
+	--p-width: 520px;
+	--p-height: 500px;
+}
+
+@media (max-width: 1068px) and (max-width: 1068px) {
+	.overview-plans-iphone-single {
+		--p-width: 372px;
+		--p-height: 360px;
+		position: relative;
+		top: 13px;
+	}
+}
+
+@media (max-width: 734px) and (max-width: 734px) {
+	.overview-plans-iphone-single {
+		--p-width: 280px;
+		--p-height: 148px;
+	}
+}
+
+.overview-plans-mac-single, .overview-plans-ipad-single, .overview-plans-watch-single, .overview-plans-headphones-single, .overview-plans-apple-tv-single, .overview-plans-homepod-single {
+	display: block;
+	width: var(--p-width);
+	height: var(--p-height);
+	--p-width: 520px;
+	--p-height: 500px;
+}
+
+@media (max-width: 1068px) and (max-width: 1068px) {
+	.overview-plans-mac-single, .overview-plans-ipad-single, .overview-plans-watch-single, .overview-plans-headphones-single, .overview-plans-apple-tv-single, .overview-plans-homepod-single {
+		--p-width: 372px;
+		--p-height: 360px;
+	}
+}
+
+@media (max-width: 734px) and (max-width: 734px) {
+	.overview-plans-mac-single, .overview-plans-ipad-single, .overview-plans-watch-single, .overview-plans-headphones-single, .overview-plans-apple-tv-single, .overview-plans-homepod-single {
+		--p-width: 280px;
+		--p-height: 148px;
+	}
+}
+
+.overview-plans-display-single {
+	display: block;
+	width: var(--p-width);
+	height: var(--p-height);
+	--p-width: 520px;
+	--p-height: 500px;
+}
+
+@media (max-width: 1068px) and (max-width: 1068px) {
+	.overview-plans-display-single {
+		--p-width: 372px;
+		--p-height: 360px;
+	}
+}
+
+@media (max-width: 734px) and (max-width: 734px) {
+	.overview-plans-display-single {
+		--p-width: 280px;
+		--p-height: 148px;
+	}
+}
+
+.modal-pricing .modal-headline {
+	max-width: 17ch;
+}
+/*.gallery-item .tile .typography-body-tight {
+	margin-top: 46px;
+}*/
+
+.section-plans .gallery .tile-content {
+	padding: 40px 32px 29px;
+}
+
+@media (max-width: 734px) and (max-width: 734px) {
+	/*.gallery-item .tile .typography-body-tight {
+		margin-top: 0;
+	}*/
+	.section-plans .gallery .tile-content {
+		padding: 28px 28px 20px;
+	}
+}

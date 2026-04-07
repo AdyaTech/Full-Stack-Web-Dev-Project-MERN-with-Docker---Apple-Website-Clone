@@ -1,0 +1,8 @@
+/* rdar://problem/69223527 */
+.as-cashback-content {
+  list-style: none;
+}
+
+.rs-cashbackoverlay-offerdetails-list {
+  list-style: disc;
+}

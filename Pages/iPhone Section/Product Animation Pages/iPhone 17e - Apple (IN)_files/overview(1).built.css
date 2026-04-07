@@ -1,0 +1,64 @@
+/* All in the family section - connectivity gallery */
+@media only screen and (min-width: 1068px) {
+	#connectivity-gallery .card-set {
+		grid-auto-columns: 372px;
+	}
+}
+
+/* sos icon */
+section.section-upgrade .inline-compare-wrap .inline-wrap .compare-tile.compare-tile-esos .bg-upgrade-image {
+    --tile-image-width: 71px;
+    --tile-image-height: 71px;
+    width: var(--tile-image-width);
+    height: var(--tile-image-height)
+}
+section.section-upgrade .inline-compare-wrap .inline-wrap .compare-tile.compare-tile-esos .bg-upgrade-image.ready-to-load {
+    background-size: 71px 71px;
+    background-repeat: no-repeat;
+    background-image: url(/in/iphone-17e/images/overview/upgrade/inline-compare/esos__cga8tppiejqq_large.webp)
+}
+@media(min-resolution: 1.5dppx),(min-resolution:144dpi) {
+    section.section-upgrade .inline-compare-wrap .inline-wrap .compare-tile.compare-tile-esos .bg-upgrade-image.ready-to-load {
+        background-image:url(/in/iphone-17e/images/overview/upgrade/inline-compare/esos__cga8tppiejqq_large_2x.webp)
+    }
+}
+@media(max-width: 1068px) {
+    section.section-upgrade .inline-compare-wrap .inline-wrap .compare-tile.compare-tile-esos .bg-upgrade-image.ready-to-load {
+        background-size:51px 51px;
+        background-repeat: no-repeat;
+        background-image: url(/in/iphone-17e/images/overview/upgrade/inline-compare/esos__cga8tppiejqq_medium.webp)
+    }
+}
+@media(max-width: 1068px) and (min-resolution:1.5dppx),(max-width:1068px) and (min-resolution:144dpi) {
+    section.section-upgrade .inline-compare-wrap .inline-wrap .compare-tile.compare-tile-esos .bg-upgrade-image.ready-to-load {
+        background-image:url(/in/iphone-17e/images/overview/upgrade/inline-compare/esos__cga8tppiejqq_medium_2x.webp)
+    }
+}
+@media(max-width: 734px) {
+    section.section-upgrade .inline-compare-wrap .inline-wrap .compare-tile.compare-tile-esos .bg-upgrade-image.ready-to-load {
+        background-size:51px 51px;
+        background-repeat: no-repeat;
+        background-image: url(/in/iphone-17e/images/overview/upgrade/inline-compare/esos__cga8tppiejqq_small.webp)
+    }
+}
+@media(max-width: 734px) and (min-resolution:1.5dppx),(max-width:734px) and (min-resolution:144dpi) {
+    section.section-upgrade .inline-compare-wrap .inline-wrap .compare-tile.compare-tile-esos .bg-upgrade-image.ready-to-load {
+        background-image:url(/in/iphone-17e/images/overview/upgrade/inline-compare/esos__cga8tppiejqq_small_2x.webp)
+    }
+}
+@media(max-width: 1068px) {
+    section.section-upgrade .inline-compare-wrap .inline-wrap .compare-tile.compare-tile-esos .bg-upgrade-image {
+        --tile-image-width:51px;
+        --tile-image-height: 51px;
+        width: var(--tile-image-width);
+        height: var(--tile-image-height)
+    }
+}
+@media(max-width: 734px) {
+    section.section-upgrade .inline-compare-wrap .inline-wrap .compare-tile.compare-tile-esos .bg-upgrade-image {
+        --tile-image-width:51px;
+        --tile-image-height: 51px;
+        width: var(--tile-image-width);
+        height: var(--tile-image-height)
+    }
+}

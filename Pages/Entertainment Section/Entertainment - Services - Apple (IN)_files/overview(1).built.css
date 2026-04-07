@@ -1,0 +1,21 @@
+.chapternav-item-apple-tv-plus .chapternav-icon {
+    background-size: 47px 54px;
+    background-repeat: no-repeat;
+    background-image: url(/v/services/i/images/services/chapternav/light/apple_tv_plus_light__bpnd29dq0aly_large.svg);
+    width: 47px
+}
+
+html.no-svg .chapternav-item-apple-tv-plus .chapternav-icon {
+    background-image: url(/v/services/i/images/services/chapternav/light/apple_tv_plus_light__bpnd29dq0aly_large.png)
+}
+
+.theme-dark .chapternav-item-apple-tv-plus .chapternav-icon {
+    background-size: 47px 54px;
+    background-repeat: no-repeat;
+    background-image: url(/v/services/i/images/services/chapternav/dark/apple_tv_plus_dark__chseq8uiremq_large.svg);
+    width: 47px
+}
+
+html.no-svg .theme-dark .chapternav-item-apple-tv-plus .chapternav-icon {
+    background-image: url(/v/services/i/images/services/chapternav/dark/apple_tv_plus_dark__chseq8uiremq_large.png)
+}

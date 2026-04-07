@@ -1,0 +1,29 @@
+.footnote-glyph-spacing {
+	margin-left: -3px !important;
+}
+#footnote‡-2 small {
+	display: none;
+}
+#footnote‡-3 small {
+	display: none;
+}
+#footnote‡-4 small {
+	display: none;
+}
+#footnote◊-1 small {
+	display: none;
+}
+.footnote-glyph-spacing {
+	margin-left: -3px !important;
+}
+#ac-globalfooter .ac-gf-sosumi small {
+	display: none;
+}
+@media only screen and (max-width: 734px) {
+	.template-badge .badge-value {
+		font-size: 33px;
+	}
+}
+.ribbon .ribbon-content-wrapper {
+	padding: 9px 0;
+}

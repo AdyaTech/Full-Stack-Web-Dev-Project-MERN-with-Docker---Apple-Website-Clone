@@ -1,0 +1,200 @@
+.section-performance .credenza-screen {
+	overflow: hidden;
+}
+.section-hero .video-container .inline-video-media .inline-video-frame-end {
+	background-image: url(/in/apple-tv-4k/images/overview/hero/hero_endframe__ckbczbu91dci_large.jpg);
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx) {
+	.section-hero .video-container .inline-video-media .inline-video-frame-end {
+		background-image: url(/in/apple-tv-4k/images/overview/hero/hero_endframe__ckbczbu91dci_large_2x.jpg);
+	}
+}
+@media only screen and (max-width: 1068px) {
+	.section-hero .video-container .inline-video-media .inline-video-frame-end {
+		background-image: url(/in/apple-tv-4k/images/overview/hero/hero_endframe__ckbczbu91dci_medium.jpg);
+	}
+}
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+	.section-hero .video-container .inline-video-media .inline-video-frame-end {
+		background-image: url(/in/apple-tv-4k/images/overview/hero/hero_endframe__ckbczbu91dci_medium_2x.jpg);
+	}
+}
+@media only screen and (max-width: 734px) {
+	.section-hero .video-container .inline-video-media .inline-video-frame-end {
+		background-image: url(/in/apple-tv-4k/images/overview/hero/hero_endframe__ckbczbu91dci_small.jpg);
+	}
+}
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+	.section-hero .video-container .inline-video-media .inline-video-frame-end {
+		background-image: url(/in/apple-tv-4k/images/overview/hero/hero_endframe__ckbczbu91dci_small_2x.jpg);
+	}
+}
+
+.section-hero .static-screen {
+	background-image: url(/in/apple-tv-4k/images/overview/hero/hero_tv_screen__fywdd4xedfm2_large.jpg);
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx) {
+	.section-hero .static-screen {
+		background-image: url(/in/apple-tv-4k/images/overview/hero/hero_tv_screen__fywdd4xedfm2_large_2x.jpg);
+	}
+}
+@media only screen and (max-width: 1068px) {
+	.section-hero .static-screen {
+		background-image: url(/in/apple-tv-4k/images/overview/hero/hero_tv_screen__fywdd4xedfm2_medium.jpg);
+	}
+}
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+	.section-hero .static-screen {
+		background-image: url(/in/apple-tv-4k/images/overview/hero/hero_tv_screen__fywdd4xedfm2_medium_2x.jpg);
+	}
+}
+@media only screen and (max-width: 734px) {
+	.section-hero .static-screen {
+		background-image: url(/in/apple-tv-4k/images/overview/hero/hero_tv_screen__fywdd4xedfm2_small.jpg);
+	}
+}
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+	.section-hero .static-screen {
+		background-image: url(/in/apple-tv-4k/images/overview/hero/hero_tv_screen__fywdd4xedfm2_small_2x.jpg);
+	}
+}
+.section-rooms .video-wrapper .room-screen:first-child {
+	background-image: url(/in/apple-tv-4k/images/overview/rooms/screen_tv_app__dm7wdenhzb0i_large.jpg);
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx) {
+	.section-rooms .video-wrapper .room-screen:first-child {
+		background-image: url(/in/apple-tv-4k/images/overview/rooms/screen_tv_app__dm7wdenhzb0i_large_2x.jpg);
+	}
+}
+@media only screen and (max-width: 1068px) {
+	.section-rooms .video-wrapper .room-screen:first-child {
+		background-image: url(/in/apple-tv-4k/images/overview/rooms/screen_tv_app__dm7wdenhzb0i_medium.jpg);
+	}
+}
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+	.section-rooms .video-wrapper .room-screen:first-child {
+		background-image: url(/in/apple-tv-4k/images/overview/rooms/screen_tv_app__dm7wdenhzb0i_medium_2x.jpg);
+	}
+}
+@media only screen and (max-width: 734px) {
+	.section-rooms .video-wrapper .room-screen:first-child {
+		background-image: url(/in/apple-tv-4k/images/overview/rooms/screen_tv_app__dm7wdenhzb0i_small.jpg);
+	}
+}
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+	.section-rooms .video-wrapper .room-screen:first-child {
+		background-image: url(/in/apple-tv-4k/images/overview/rooms/screen_tv_app__dm7wdenhzb0i_small_2x.jpg);
+	}
+}
+
+.section-hero .video-container .inline-video-media .inline-video-frame-static {
+	background-image: url(/in/apple-tv-4k/images/overview/hero/hero_staticframe__fc291ipcri2y_large.jpg);
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx) {
+	.section-hero .video-container .inline-video-media .inline-video-frame-static {
+		background-image: url(/in/apple-tv-4k/images/overview/hero/hero_staticframe__fc291ipcri2y_large_2x.jpg);
+	}
+}
+@media only screen and (max-width: 1068px) {
+	.section-hero .video-container .inline-video-media .inline-video-frame-static {
+		background-image: url(/in/apple-tv-4k/images/overview/hero/hero_staticframe__fc291ipcri2y_medium.jpg);
+	}
+}
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+	.section-hero .video-container .inline-video-media .inline-video-frame-static {
+		background-image: url(/in/apple-tv-4k/images/overview/hero/hero_staticframe__fc291ipcri2y_medium_2x.jpg);
+	}
+}
+@media only screen and (max-width: 734px) {
+	.section-hero .video-container .inline-video-media .inline-video-frame-static {
+		background-image: url(/in/apple-tv-4k/images/overview/hero/hero_staticframe__fc291ipcri2y_small.jpg);
+	}
+}
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+	.section-hero .video-container .inline-video-media .inline-video-frame-static {
+		background-image: url(/in/apple-tv-4k/images/overview/hero/hero_staticframe__fc291ipcri2y_small_2x.jpg);
+	}
+}
+
+section-hero .video-container .inline-video-media .inline-video-frame-static {
+	background-image: url(/in/apple-tv-4k/images/overview/hero/hero_staticframe__fc291ipcri2y_large.jpg);
+}
+
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx) {
+	.section-hero .video-container .inline-video-media .inline-video-frame-static {
+		background-image: url(/in/apple-tv-4k/images/overview/hero/hero_staticframe__fc291ipcri2y_large_2x.jpg);
+	}
+}
+
+@media only screen and (max-width: 1068px) {
+	.section-hero .video-container .inline-video-media .inline-video-frame-static {
+		background-image: url(/in/apple-tv-4k/images/overview/hero/hero_staticframe__fc291ipcri2y_medium.jpg);
+	}
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+	.section-hero .video-container .inline-video-media .inline-video-frame-static {
+		background-image: url(/in/apple-tv-4k/images/overview/hero/hero_staticframe__fc291ipcri2y_medium_2x.jpg);
+	}
+}
+
+@media only screen and (max-width: 734px) {
+	.section-hero .video-container .inline-video-media .inline-video-frame-static {
+		background-image: url(/in/apple-tv-4k/images/overview/hero/hero_staticframe__fc291ipcri2y_small.jpg);
+	}
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+	.section-hero .video-container .inline-video-media .inline-video-frame-static {
+		background-image: url(/in/apple-tv-4k/images/overview/hero/hero_staticframe__fc291ipcri2y_small_2x.jpg);
+	}
+}
+#ac-globalfooter .ac-gf-sosumi small {
+	font-size: 0.8em;
+}
+
+/******** Local fixes start ********/
+@media only screen and (max-width: 734px) {
+	.section-rooms .room-tv-app .icon-eyebrow {
+		margin: 45px 0 22px;
+	}
+}
+
+.anz-sosumi {
+	font-size: 12px;
+	line-height: 1.33337;
+	font-weight: 400;
+	letter-spacing: -0.01em;
+}
+
+/* Fitness+ Room Link Fix - START */
+
+@media only screen and (max-width: 1068px) {
+	.section-rooms .room-fitness-plus a.typography-rooms-copy + a.typography-rooms-copy.anz-fix {
+		margin-left: 23px;
+	}
+}
+
+@media only screen and (max-width: 734px) {
+	.section-rooms .room-fitness-plus a.typography-rooms-copy + a.typography-rooms-copy.anz-fix {
+		margin-left: 38px;
+	}
+}
+
+/******** Local fixes end ********/
+
+.section-hero .video-container .inline-video-media .inline-video-frame-start {
+	background-image: url(/in/apple-tv-4k/images/overview/hero/hero_startframe__e3rt3d14xoq6_large.jpg);
+}
+
+@media only screen and (max-width: 1068px) {
+	.section-hero .video-container .inline-video-media .inline-video-frame-start {
+		background-image: url(/in/apple-tv-4k/images/overview/hero/hero_startframe__e3rt3d14xoq6_medium.jpg);
+	}
+}
+
+@media only screen and (max-width: 734px) {
+	.section-hero .video-container .inline-video-media .inline-video-frame-start {
+		background-image: url(/in/apple-tv-4k/images/overview/hero/hero_startframe__e3rt3d14xoq6_small.jpg);
+	}
+}

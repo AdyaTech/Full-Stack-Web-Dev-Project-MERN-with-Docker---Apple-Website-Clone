@@ -1,0 +1,225 @@
+/*
+ * Global Footer: v4 2026-01-08T18:39:21.003Z
+ */
+const createGlobalFooter = ({
+  containerId,
+  appName = '',
+  footerLocaleLink = null,
+  disableDarkMode = false,
+  footerLocaleFormData = null,
+  showDirectory = false,
+  hideSupportLinkFromBreadcrumb = false,
+  disableAppleHomeLink = false
+}) => {
+  const __FOOTER_MARCOM_TEMPLATE__ = '		<div class="ac-gf-footer-locale"><a class="ac-gf-footer-locale-link" href="{1}" title="Choose your country or region" aria-label="India. Choose your country or region" data-analytics-title="choose your country">India</a><span class="ac-gf-footer-country-name">India</span>	</div>	<div class="ac-gf-footer-legal">		<div class="ac-gf-footer-legal-copyright">Copyright © {0} Apple Inc. All rights reserved.</div>		<ul class="ac-gf-footer-legal-links" role="list">			<li class="ac-gf-footer-legal-links-item" role="listitem">				<a class="ac-gf-footer-legal-link" href="https://www.apple.com/in/legal/privacy/" data-analytics-title="privacy policy">Privacy Policy</a>			</li>			<li class="ac-gf-footer-legal-links-item" role="listitem">				<a class="ac-gf-footer-legal-link" href="https://www.apple.com/in/legal/terms/site.html" data-analytics-title="terms of use">Terms of Use</a>			</li>			<li class="ac-gf-footer-legal-links-item" role="listitem">				<a class="ac-gf-footer-legal-link" href="https://www.apple.com/in/shop/goto/help/sales_refunds" data-analytics-title="sales and refunds">Sales Policy</a>			</li>			<li class="ac-gf-footer-legal-links-item" role="listitem">				<a class="ac-gf-footer-legal-link" href="https://www.apple.com/in/legal/" data-analytics-title="legal">Legal</a>			</li>			<li class="ac-gf-footer-legal-links-item" role="listitem">				<a class="ac-gf-footer-legal-link" href="https://www.apple.com/in/sitemap/" data-analytics-title="site map">Site Map</a>			</li>		</ul>	</div>';
+  const __FOOTER_DIRECTORY_TEMPLATE__ = '';
+  const getFooterMarcomTemplate = (footerMarcomTemplate) => {
+    const currentYear = new Date().getFullYear();
+    let footerLocaleTemplate = footerMarcomTemplate.replace('{0}', `${currentYear} `);
+
+    if (!footerLocaleTemplate) {
+      // When footer template does not exist from Marcom the global footer is empty
+      return '';
+    }
+    var linkEndIndex;
+    var acFooterLocaleLink = footerLocaleTemplate.match(/<a class=\"ac-gf-footer-locale-link\"(.*)a>*/g);
+    if (acFooterLocaleLink) {
+      if (footerLocaleLink !== null) {
+        if (typeof footerLocaleLink === 'string' && footerLocaleLink.trim() === '') {
+          //Case where countryname placeholder is shown as text
+          linkEndIndex = acFooterLocaleLink[0].indexOf('</a>');
+          footerLocaleTemplate = footerLocaleTemplate.replace(acFooterLocaleLink[0].slice(0, linkEndIndex + 4), '');
+        } else if (footerLocaleFormData) {
+          if (footerLocaleFormData.invisible) {
+            // Case where countryname placeholder is not shown
+            footerLocaleTemplate = footerLocaleTemplate.replace(
+              /<span class=\"ac-gf-footer-country-name\"(.*)span>*/g,
+              ''
+            );
+            linkEndIndex = acFooterLocaleLink[0].indexOf('</a>');
+            footerLocaleTemplate = footerLocaleTemplate.replace(acFooterLocaleLink[0].slice(0, linkEndIndex + 4), '');
+            return footerLocaleTemplate;
+          } else {
+            // Case where countryname placeholder is shown as formpost
+            var footerCountryName = /<span class=\"ac-gf-footer-country-name\"(.*)<\/span>*/g
+              .exec(acFooterLocaleLink[0])[1]
+              .replace(/>/g, '');
+            footerLocaleTemplate = footerLocaleTemplate.replace(
+              /<span class=\"ac-gf-footer-country-name\"(.*)span>*/g,
+              ''
+            );
+
+            //the below code determines to get the button title text
+            var buttonTitleRegex = /<a\s+(?:[^>]*?\s+)?title="([^"]*)"/;
+            var buttonTitle = footerCountryName;
+            if (buttonTitleRegex.exec(acFooterLocaleLink[0])) {
+              buttonTitle = buttonTitleRegex.exec(acFooterLocaleLink[0])[1];
+            }
+            //the below code determines to get the button aria-label text
+            var buttonAriaLabelRegex = /<a\s+(?:[^>]*?\s+)?aria-label="([^"]*)"/;
+            var buttonAriaLabel = footerCountryName;
+            if (buttonAriaLabelRegex.exec(acFooterLocaleLink[0])) {
+              buttonAriaLabel = buttonAriaLabelRegex.exec(acFooterLocaleLink[0])[1];
+            }
+
+            const formFlow =
+              footerLocaleFormData && footerLocaleFormData.flow
+                ? `<input type="hidden" name="flow" value=${footerLocaleFormData.flow}>`
+                : '';
+            const formString = `<form action=${footerLocaleLink} method='post'>
+            <input type="hidden" name="returnUrl" value=${footerLocaleFormData.returnUrl}> 
+            ${formFlow}
+              <button
+                className="footer-locale-link"
+                type='submit'
+                title="${buttonTitle}"
+                aria-label="${buttonAriaLabel}"
+              >
+                ${footerCountryName}
+              </button>
+            </form>`;
+
+            linkEndIndex = acFooterLocaleLink[0].indexOf('</a>');
+            footerLocaleTemplate = footerLocaleTemplate.replace(
+              acFooterLocaleLink[0].slice(0, linkEndIndex + 4),
+              formString
+            );
+          }
+        } else {
+          //Case where countryname placeholder is shown as link
+          footerLocaleTemplate = footerLocaleTemplate
+            .replace(/<span class=\"ac-gf-footer-country-name\"(.*)span>*/g, '')
+            .replace('{1}', `${footerLocaleLink || ''} `);
+        }
+      } else {
+        // Case where countryname placeholder is not shown
+        footerLocaleTemplate = footerLocaleTemplate.replace(/<span class=\"ac-gf-footer-country-name\"(.*)span>*/g, '');
+        linkEndIndex = acFooterLocaleLink[0].indexOf('</a>');
+        footerLocaleTemplate = footerLocaleTemplate.replace(acFooterLocaleLink[0].slice(0, linkEndIndex + 4), '');
+      }
+    }
+    return footerLocaleTemplate;
+  };
+  const getDarkModeClass = () => {
+    // detect system theme and monitor for changes
+    const darkQuery = window.matchMedia('(prefers-color-scheme: dark)');
+    darkQuery.addListener(function (event) {
+      const footer = document.getElementById('ac-globalfooter');
+      if (event.matches) {
+        footer && footer.classList.add('ac-globalfooter-dark');
+      } else {
+        footer && footer.classList.remove('ac-globalfooter-dark');
+      }
+    });
+    return darkQuery.matches ? 'ac-globalfooter-dark' : '';
+  };
+
+  const getSupportLinkForBreadcrumb = (hideSupportLink) => {
+    let supportLinkBreadcrumbMarkup = '';
+    if (!hideSupportLink) {
+      supportLinkBreadcrumbMarkup = `<li class="ac-gf-breadcrumbs-item" property="itemListElement" typeof="ListItem">
+              <span property="name">
+              <a href="https://support.apple.com/en-in/">Support</a>
+              </span>
+             </li>`;
+    }
+    return supportLinkBreadcrumbMarkup;
+  };
+
+  const AppleHomeStaticLogo = `<style>
+#ac-globalfooter .osae-footer-breadcrumbs .ac-gf-breadcrumbs-home-icon {mask-image:unset; background-image: none;background-color: transparent;}
+#ac-globalfooter .osae-footer-breadcrumbs .ac-gf-breadcrumbs-home-icon svg{transform: translate(0, -2px)}
+#ac-globalfooter .osae-footer-breadcrumbs .ac-gf-breadcrumbs-home-icon svg path { fill: black; opacity: 0.72}
+#ac-globalfooter .osae-footer-breadcrumbs .ac-gf-breadcrumbs-home:hover .ac-gf-breadcrumbs-home-icon {background-color: transparent;}
+#ac-globalfooter .osae-footer-breadcrumbs .ac-gf-breadcrumbs-item:before {mask-image:unset; background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="6" height="11" viewBox="0 0 6 11"><polyline points=".675 .925 5.323 5.5 .675 10.075" fill="none" stroke="black" opacity="0.48" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.1"/></svg>');background-color: transparent; background-repeat: no-repeat; }
+@media (prefers-color-scheme: dark) {
+#ac-globalfooter .osae-footer-breadcrumbs .ac-gf-breadcrumbs-home-icon svg path { fill: white; opacity: 0.72}
+#ac-globalfooter .osae-footer-breadcrumbs .ac-gf-breadcrumbs-item:before {background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="6" height="11" viewBox="0 0 6 11"><polyline points=".675 .925 5.323 5.5 .675 10.075" fill="none" stroke="white" opacity="0.4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.1"/></svg>');}
+}
+html[dir=rtl] #ac-globalfooter .osae-footer-breadcrumbs .ac-gf-breadcrumbs-item:before {transform: scaleX(-1);}
+
+</style><span
+  class="home ac-gf-breadcrumbs-home static-apple-home-icon"
+>
+  <span class="ac-gf-breadcrumbs-home-icon" aria-hidden="true">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 69.63 120"><path d="M49.268,38.344c-5.713,0 -10.352,3.467 -13.33,3.467c-3.174,0 -7.325,-3.467 -12.305,-3.467c-9.424,0 -18.994,8.008 -18.994,22.705c0,9.18 3.515,18.848 7.91,25.098c3.76,5.273 7.031,9.521 11.767,9.521c4.688,0 6.739,-3.027 12.549,-3.027c5.908,0 7.227,3.027 12.403,3.027c5.127,0 8.545,-4.687 11.767,-9.326c3.613,-5.322 5.127,-10.498 5.176,-10.742c-0.293,-0.098 -10.107,-4.102 -10.107,-15.332c0,-9.717 7.714,-14.062 8.154,-14.404c-5.078,-7.325 -12.842,-7.52 -14.99,-7.52zM46.582,32.143c2.344,-2.832 4.004,-6.689 4.004,-10.596c0,-0.537 -0.049,-1.074 -0.146,-1.513c-3.809,0.146 -8.399,2.539 -11.133,5.761c-2.149,2.442 -4.151,6.348 -4.151,10.254c0,0.586 0.098,1.172 0.147,1.367c0.244,0.049 0.635,0.098 1.025,0.098c3.418,0 7.715,-2.295 10.254,-5.371z" fill="#007aff" opacity="1"/></svg>
+  </span>
+  <span class="ac-gf-breadcrumbs-home-label">Apple</span>
+  <span class="ac-gf-breadcrumbs-home-chevron"></span>
+  <span class="ac-gf-breadcrumbs-home-mask"></span>
+</span>`;
+  const AppleHomeLink = `<style>
+#ac-globalfooter .osae-footer-breadcrumbs .ac-gf-breadcrumbs-home-icon {mask-image:unset; background-image: none;background-color: transparent;}
+#ac-globalfooter .osae-footer-breadcrumbs .ac-gf-breadcrumbs-home-icon svg{transform: translate(0, -2px)}
+#ac-globalfooter .osae-footer-breadcrumbs .ac-gf-breadcrumbs-home-icon svg path { fill: black; opacity: 0.72}
+#ac-globalfooter .osae-footer-breadcrumbs .ac-gf-breadcrumbs-home:hover .ac-gf-breadcrumbs-home-icon {background-color: transparent;}
+#ac-globalfooter .osae-footer-breadcrumbs .ac-gf-breadcrumbs-home:hover .ac-gf-breadcrumbs-home-icon  svg path {opacity: 0.88}
+#ac-globalfooter .osae-footer-breadcrumbs .ac-gf-breadcrumbs-item:before {mask-image:unset; background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="6" height="11" viewBox="0 0 6 11"><polyline points=".675 .925 5.323 5.5 .675 10.075" fill="none" stroke="black" opacity="0.48" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.1"/></svg>');background-color: transparent; background-repeat: no-repeat; }
+@media (prefers-color-scheme: dark) {
+#ac-globalfooter .osae-footer-breadcrumbs .ac-gf-breadcrumbs-home-icon svg path { fill: white; opacity: 0.72}
+#ac-globalfooter .osae-footer-breadcrumbs .ac-gf-breadcrumbs-home:hover .ac-gf-breadcrumbs-home-icon  svg path {opacity: 0.92}
+#ac-globalfooter .osae-footer-breadcrumbs .ac-gf-breadcrumbs-item:before {background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="6" height="11" viewBox="0 0 6 11"><polyline points=".675 .925 5.323 5.5 .675 10.075" fill="none" stroke="white" opacity="0.4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.1"/></svg>');}
+}
+html[dir=rtl] #ac-globalfooter .osae-footer-breadcrumbs .ac-gf-breadcrumbs-item:before {transform: scaleX(-1);}
+
+</style><a
+href="https://www.apple.com/in/"
+class="home ac-gf-breadcrumbs-home"
+>
+<span class="ac-gf-breadcrumbs-home-icon" aria-hidden="true">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 69.63 120"><path d="M49.268,38.344c-5.713,0 -10.352,3.467 -13.33,3.467c-3.174,0 -7.325,-3.467 -12.305,-3.467c-9.424,0 -18.994,8.008 -18.994,22.705c0,9.18 3.515,18.848 7.91,25.098c3.76,5.273 7.031,9.521 11.767,9.521c4.688,0 6.739,-3.027 12.549,-3.027c5.908,0 7.227,3.027 12.403,3.027c5.127,0 8.545,-4.687 11.767,-9.326c3.613,-5.322 5.127,-10.498 5.176,-10.742c-0.293,-0.098 -10.107,-4.102 -10.107,-15.332c0,-9.717 7.714,-14.062 8.154,-14.404c-5.078,-7.325 -12.842,-7.52 -14.99,-7.52zM46.582,32.143c2.344,-2.832 4.004,-6.689 4.004,-10.596c0,-0.537 -0.049,-1.074 -0.146,-1.513c-3.809,0.146 -8.399,2.539 -11.133,5.761c-2.149,2.442 -4.151,6.348 -4.151,10.254c0,0.586 0.098,1.172 0.147,1.367c0.244,0.049 0.635,0.098 1.025,0.098c3.418,0 7.715,-2.295 10.254,-5.371z" fill="#007aff" opacity="1"/></svg>
+</span>
+<span class="ac-gf-breadcrumbs-home-label">Apple</span>
+<span class="ac-gf-breadcrumbs-home-chevron"></span>
+<span class="ac-gf-breadcrumbs-home-mask"></span>
+</a>`;
+
+  let footerWrapperTemplate = `<footer id="ac-globalfooter" class="footer js ac-theme-dark flexbox ${!disableDarkMode && getDarkModeClass()
+    }" lang="en" dir="ltr" data-locale=IN data-analytics-region="global footer" role="contentinfo" aria-labelledby="footer-label">
+      <div class="footer-content ac-gf-content">
+      <h2 class="footer-label ac-gf-label" id="footer-label ac-gf-label">Apple Footer</h2>
+        <nav class="footer-breadcrumbs ac-gf-breadcrumbs osae-footer-breadcrumbs" role="navigation" aria-label="Breadcrumbs">
+          ${disableAppleHomeLink ? AppleHomeStaticLogo : AppleHomeLink
+    }
+          <div class="footer-breadcrumbs-path ac-gf-breadcrumbs-path">
+            ${!hideSupportLinkFromBreadcrumb || !!appName ? `
+              <ol class="footer-breadcrumbs-list ac-gf-breadcrumbs-list" vocab="http://schema.org/" typeof="BreadcrumbList">
+               ${getSupportLinkForBreadcrumb(hideSupportLinkFromBreadcrumb)}
+                ${!!appName ? `
+                  <li class="footer-breadcrumbs-item ac-gf-breadcrumbs-item" property="itemListElement" typeof="ListItem">
+                    <span property="name">${appName}</span>
+                  </li>` : ''
+      }
+              </ol>`: '&nbsp;'
+    } 
+          </div>
+        </nav>
+        ${showDirectory ? __FOOTER_DIRECTORY_TEMPLATE__ : ""}
+        <section class="ac-gf-footer">
+          ${getFooterMarcomTemplate(__FOOTER_MARCOM_TEMPLATE__)}
+        </section>
+      </div>
+    </footer>`;
+  let link = document.createElement('link');
+  link.href = `https://www.apple.com/ac/globalfooter/8/en_IN/styles/ac-globalfooter.built.css`;
+  link.type = 'text/css';
+  link.rel = 'stylesheet';
+  document.getElementsByTagName('head')[0].appendChild(link);
+  link.addEventListener('load', function () {
+    if (containerId && !!document.getElementById(containerId)) {
+      document.getElementById(containerId).innerHTML = footerWrapperTemplate;
+    } else if (document.getElementById('marcom-footer')) {
+      // if marcom-footer exist replace html template of it
+      document.getElementById('marcom-footer').innerHTML = footerWrapperTemplate;
+    } else {
+      // if marcom-footer not exist create new element
+      let footerContainer = document.createElement('div');
+      footerContainer.id = 'marcom-footer';
+      footerContainer.innerHTML = footerWrapperTemplate;
+      document.body.appendChild(footerContainer);
+    }
+  });
+};
+
+// putting createGlobalFooter and __createGlobalFooter__ in global scope.
+window.createGlobalFooter = window.__createGlobalFooter__ = createGlobalFooter;

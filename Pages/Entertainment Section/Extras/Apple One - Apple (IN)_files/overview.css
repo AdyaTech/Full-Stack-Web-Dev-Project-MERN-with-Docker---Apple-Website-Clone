@@ -1,0 +1,56 @@
+.section-router .services-content .column {
+	text-align: left;
+	margin-bottom: 40px;
+	flex-basis: 50%;
+	padding-inline: 25px;
+}
+
+@media only screen and (max-width: 1068px) {
+	.section-router .services-content .column {
+		flex-basis: 50%;
+		padding-inline: 18px;
+	}
+}
+
+@media only screen and (max-width: 734px) {
+	.section-router .services-content .column {
+		text-align: center;
+		margin-bottom: 50px;
+		flex-basis: 100%;
+		padding-inline: 0;
+	}
+}
+
+
+.tile-cta.payment-method {
+	font-size: 17px;
+	text-align: center;
+	padding-top: 50px;
+}
+
+.section-plans .plan-tile ul li {
+	align-items: baseline;
+}
+
+.section-plans .plan-tile.expanded .violator {
+	margin-top: 5px;
+	margin-left: 0;
+}
+.section-plans .plan-tile.expanded .logo-icloud {
+	margin-right: 11px;
+}
+
+@media only screen and (max-width: 1068px) {
+	.section-plans .plan-tile.expanded .logo-icloud {
+		margin-right: 0;
+	}
+}
+@media only screen and (max-width: 734px) {
+	.section-plans .plan-tile.expanded .logo-icloud {
+		margin-right: 0;
+	}
+	.section-plans .plan-tile.expanded .violator {
+		margin-top: 0;
+		margin-left: 5px;
+	}
+}

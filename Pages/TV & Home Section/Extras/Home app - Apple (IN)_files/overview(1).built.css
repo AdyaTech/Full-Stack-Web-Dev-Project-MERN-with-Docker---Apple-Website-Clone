@@ -1,0 +1,59 @@
+
+.section-control .section-intro {
+        padding-top: 140px;
+    }
+@media only screen and (min-width: 735px) and (max-width: 1068px) {
+    .section-control .section-intro {
+        padding-top: 103px;
+    }
+}
+@media only screen and (max-width: 734px) {
+    .section-control .section-intro {
+        padding-top: 61px;
+    }
+}
+
+.section-experience .grid-item-control-center .overview-control-center {
+   
+    background-image: url(/in/home-app/images/overview/home_iphone__2lr2hn9kuo2y_large.jpg);
+   
+}
+
+@media (-webkit-min-device-pixel-ratio:1.5),
+(min-resolution:144dpi),
+only screen and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (min-resolution:1.5dppx) {
+    .section-experience .grid-item-control-center .overview-control-center {
+        background-image: url(/in/home-app/images/overview/home_iphone__2lr2hn9kuo2y_large_2x.jpg)
+    }
+}
+
+@media only screen and (max-width:1068px) {
+    .section-experience .grid-item-control-center .overview-control-center {
+        
+        background-image: url(/in/home-app/images/overview/home_iphone__2lr2hn9kuo2y_medium.jpg)
+    }
+}
+
+@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:1068px)and (min-resolution:1.5dppx),
+only screen and (max-width:1068px)and (min-resolution:144dpi) {
+    .section-experience .grid-item-control-center .overview-control-center {
+        background-image: url(/in/home-app/images/overview/home_iphone__2lr2hn9kuo2y_medium_2x.jpg)
+    }
+}
+
+@media only screen and (max-width:734px) {
+    .section-experience .grid-item-control-center .overview-control-center {
+       
+        background-image: url(/in/home-app/images/overview/home_iphone__2lr2hn9kuo2y_small.jpg)
+    }
+}
+
+@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:734px)and (min-resolution:1.5dppx),
+only screen and (max-width:734px)and (min-resolution:144dpi) {
+    .section-experience .grid-item-control-center .overview-control-center {
+        background-image: url(/in/home-app/images/overview/home_iphone__2lr2hn9kuo2y_small_2x.jpg)
+    }
+}

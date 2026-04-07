@@ -1,0 +1,69 @@
+.section-hero .hero-container .hero-image {
+	background-image: url(/in/watch/shared/why-apple-watch/images/overview/hero/hero__e44s1sgnrswi_large.jpg);
+}
+
+@media (min-resolution: 144dpi), only screen and (min-resolution: 1.5dppx) {
+	.section-hero .hero-container .hero-image {
+		background-image: url(/in/watch/shared/why-apple-watch/images/overview/hero/hero__e44s1sgnrswi_large_2x.jpg);
+	}
+}
+
+@media only screen and (max-width: 1068px) {
+	.section-hero .hero-container .hero-image {
+		background-image: url(/in/watch/shared/why-apple-watch/images/overview/hero/hero__e44s1sgnrswi_medium.jpg);
+	}
+}
+
+@media only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+	.section-hero .hero-container .hero-image {
+		background-image: url(/in/watch/shared/why-apple-watch/images/overview/hero/hero__e44s1sgnrswi_medium_2x.jpg);
+	}
+}
+
+@media only screen and (max-width: 734px) {
+	.section-hero .hero-container .hero-image {
+		background-image: url(/in/watch/shared/why-apple-watch/images/overview/hero/hero__e44s1sgnrswi_small.jpg);
+	}
+}
+
+@media only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+	.section-hero .hero-container .hero-image {
+		background-image: url(/in/watch/shared/why-apple-watch/images/overview/hero/hero__e44s1sgnrswi_small_2x.jpg);
+	}
+}
+.section-shared-compare .compare-item-ultra.device .compare-item-image {
+	background-image: url(/in/watch/shared/why-apple-watch/images/overview/compare/compare_ultra3__fj14q9tw73u6_large.jpg);
+}
+
+@media (min-resolution: 144dpi), only screen and (min-resolution: 1.5dppx) {
+	.section-shared-compare .compare-item-ultra.device .compare-item-image {
+		background-image: url(/in/watch/shared/why-apple-watch/images/overview/compare/compare_ultra3__fj14q9tw73u6_large_2x.jpg);
+	}
+}
+
+@media only screen and (max-width: 1068px) {
+	.section-shared-compare .compare-item-ultra.device .compare-item-image {
+		background-image: url(/in/watch/shared/why-apple-watch/images/overview/compare/compare_ultra3__fj14q9tw73u6_medium.jpg);
+	}
+}
+
+@media only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+	.section-shared-compare .compare-item-ultra.device .compare-item-image {
+		background-image: url(/in/watch/shared/why-apple-watch/images/overview/compare/compare_ultra3__fj14q9tw73u6_medium_2x.jpg);
+	}
+}
+
+@media only screen and (max-width: 734px) {
+	.section-shared-compare .compare-item-ultra.device .compare-item-image {
+		background-image: url(/in/watch/shared/why-apple-watch/images/overview/compare/compare_ultra3__fj14q9tw73u6_small.jpg);
+	}
+}
+
+@media only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+	.section-shared-compare .compare-item-ultra.device .compare-item-image {
+		background-image: url(/in/watch/shared/why-apple-watch/images/overview/compare/compare_ultra3__fj14q9tw73u6_small_2x.jpg);
+	}
+}
+.grid-item-translate .tile-header .violator.violator-reduced {
+	font-weight: 400;
+}

@@ -1,0 +1,267 @@
+.section-hero .image-hero-ipad-keyboards {
+	background-image: url(/in/ipad-keyboards/images/overview/hero/ipad_keyboards__ecdwd3fpeimq_large.jpg);
+}
+
+@media (min-resolution: 144dpi), only screen and (min-resolution: 1.5dppx) {
+	.section-hero .image-hero-ipad-keyboards {
+		background-image: url(/in/ipad-keyboards/images/overview/hero/ipad_keyboards__ecdwd3fpeimq_large_2x.jpg);
+	}
+}
+
+@media only screen and (max-width: 1068px) {
+	.section-hero .image-hero-ipad-keyboards {
+		background-image: url(/in/ipad-keyboards/images/overview/hero/ipad_keyboards__ecdwd3fpeimq_medium.jpg);
+	}
+}
+
+@media only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+	.section-hero .image-hero-ipad-keyboards {
+		background-image: url(/in/ipad-keyboards/images/overview/hero/ipad_keyboards__ecdwd3fpeimq_medium_2x.jpg);
+	}
+}
+
+@media only screen and (max-width: 734px) {
+	.section-hero .image-hero-ipad-keyboards {
+		background-image: url(/in/ipad-keyboards/images/overview/hero/ipad_keyboards__ecdwd3fpeimq_small.jpg);
+	}
+}
+
+@media only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+	.section-hero .image-hero-ipad-keyboards {
+		background-image: url(/in/ipad-keyboards/images/overview/hero/ipad_keyboards__ecdwd3fpeimq_small_2x.jpg);
+	}
+}
+
+.image-magic-keyboard-ipad-pro-white {
+	background-image: url(/in/ipad-keyboards/images/overview/magic_keyboard_ipad_pro_white__bc7esfytpazm_large.png);
+}
+
+@media (min-resolution: 144dpi), only screen and (min-resolution: 1.5dppx) {
+	.image-magic-keyboard-ipad-pro-white {
+		background-image: url(/in/ipad-keyboards/images/overview/magic_keyboard_ipad_pro_white__bc7esfytpazm_large_2x.png);
+	}
+}
+
+@media only screen and (max-width: 1068px) {
+	.image-magic-keyboard-ipad-pro-white {
+		background-image: url(/in/ipad-keyboards/images/overview/magic_keyboard_ipad_pro_white__bc7esfytpazm_medium.png);
+	}
+}
+
+@media only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+	.image-magic-keyboard-ipad-pro-white {
+		background-image: url(/in/ipad-keyboards/images/overview/magic_keyboard_ipad_pro_white__bc7esfytpazm_medium_2x.png);
+	}
+}
+
+@media only screen and (max-width: 734px) {
+	.image-magic-keyboard-ipad-pro-white {
+		background-image: url(/in/ipad-keyboards/images/overview/magic_keyboard_ipad_pro_white__bc7esfytpazm_small.png);
+	}
+}
+
+@media only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+	.image-magic-keyboard-ipad-pro-white {
+		background-image: url(/in/ipad-keyboards/images/overview/magic_keyboard_ipad_pro_white__bc7esfytpazm_small_2x.png);
+	}
+}
+
+.image-magic-keyboard-white {
+	background-image: url(/in/ipad-keyboards/images/overview/magic_keyboard_white__bw5nfooq07le_large.png);
+}
+
+@media (min-resolution: 144dpi), only screen and (min-resolution: 1.5dppx) {
+	.image-magic-keyboard-white {
+		background-image: url(/in/ipad-keyboards/images/overview/magic_keyboard_white__bw5nfooq07le_large_2x.png);
+	}
+}
+
+@media only screen and (max-width: 1068px) {
+	.image-magic-keyboard-white {
+		background-image: url(/in/ipad-keyboards/images/overview/magic_keyboard_white__bw5nfooq07le_medium.png);
+	}
+}
+
+@media only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+	.image-magic-keyboard-white {
+		background-image: url(/in/ipad-keyboards/images/overview/magic_keyboard_white__bw5nfooq07le_medium_2x.png);
+	}
+}
+
+@media only screen and (max-width: 734px) {
+	.image-magic-keyboard-white {
+		background-image: url(/in/ipad-keyboards/images/overview/magic_keyboard_white__bw5nfooq07le_small.png);
+	}
+}
+
+@media only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+	.image-magic-keyboard-white {
+		background-image: url(/in/ipad-keyboards/images/overview/magic_keyboard_white__bw5nfooq07le_small_2x.png);
+	}
+}
+.image-magic-keyboard-folio {
+	background-image: url(/in/ipad-keyboards/images/overview/magic_keyboard_folio__bksjnsz6ol5y_large.png);
+}
+
+@media (min-resolution: 144dpi), only screen and (min-resolution: 1.5dppx) {
+	.image-magic-keyboard-folio {
+		background-image: url(/in/ipad-keyboards/images/overview/magic_keyboard_folio__bksjnsz6ol5y_large_2x.png);
+	}
+}
+
+@media only screen and (max-width: 1068px) {
+	.image-magic-keyboard-folio {
+		background-image: url(/in/ipad-keyboards/images/overview/magic_keyboard_folio__bksjnsz6ol5y_medium.png);
+	}
+}
+
+@media only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+	.image-magic-keyboard-folio {
+		background-image: url(/in/ipad-keyboards/images/overview/magic_keyboard_folio__bksjnsz6ol5y_medium_2x.png);
+	}
+}
+
+@media only screen and (max-width: 734px) {
+	.image-magic-keyboard-folio {
+		background-image: url(/in/ipad-keyboards/images/overview/magic_keyboard_folio__bksjnsz6ol5y_small.png);
+	}
+}
+
+@media only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+	.image-magic-keyboard-folio {
+		background-image: url(/in/ipad-keyboards/images/overview/magic_keyboard_folio__bksjnsz6ol5y_small_2x.png);
+	}
+}
+.image-magic-keyboard-ipad-pro-black {
+	background-image: url(/in/ipad-keyboards/images/overview/magic_keyboard_ipad_pro_black__cctzqpac9zqu_large.png);
+}
+
+@media (min-resolution: 144dpi), only screen and (min-resolution: 1.5dppx) {
+	.image-magic-keyboard-ipad-pro-black {
+		background-image: url(/in/ipad-keyboards/images/overview/magic_keyboard_ipad_pro_black__cctzqpac9zqu_large_2x.png);
+	}
+}
+
+@media only screen and (max-width: 1068px) {
+	.image-magic-keyboard-ipad-pro-black {
+		background-image: url(/in/ipad-keyboards/images/overview/magic_keyboard_ipad_pro_black__cctzqpac9zqu_medium.png);
+	}
+}
+
+@media only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+	.image-magic-keyboard-ipad-pro-black {
+		background-image: url(/in/ipad-keyboards/images/overview/magic_keyboard_ipad_pro_black__cctzqpac9zqu_medium_2x.png);
+	}
+}
+
+@media only screen and (max-width: 734px) {
+	.image-magic-keyboard-ipad-pro-black {
+		background-image: url(/in/ipad-keyboards/images/overview/magic_keyboard_ipad_pro_black__cctzqpac9zqu_small.png);
+	}
+}
+
+@media only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+	.image-magic-keyboard-ipad-pro-black {
+		background-image: url(/in/ipad-keyboards/images/overview/magic_keyboard_ipad_pro_black__cctzqpac9zqu_small_2x.png);
+	}
+}
+.image-magic-keyboard-black {
+	background-image: url(/in/ipad-keyboards/images/overview/magic_keyboard_black__b0zgmcf9vkgi_large.png);
+}
+
+@media (min-resolution: 144dpi), only screen and (min-resolution: 1.5dppx) {
+	.image-magic-keyboard-black {
+		background-image: url(/in/ipad-keyboards/images/overview/magic_keyboard_black__b0zgmcf9vkgi_large_2x.png);
+	}
+}
+
+@media only screen and (max-width: 1068px) {
+	.image-magic-keyboard-black {
+		background-image: url(/in/ipad-keyboards/images/overview/magic_keyboard_black__b0zgmcf9vkgi_medium.png);
+	}
+}
+
+@media only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+	.image-magic-keyboard-black {
+		background-image: url(/in/ipad-keyboards/images/overview/magic_keyboard_black__b0zgmcf9vkgi_medium_2x.png);
+	}
+}
+
+@media only screen and (max-width: 734px) {
+	.image-magic-keyboard-black {
+		background-image: url(/in/ipad-keyboards/images/overview/magic_keyboard_black__b0zgmcf9vkgi_small.png);
+	}
+}
+
+@media only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+	.image-magic-keyboard-black {
+		background-image: url(/in/ipad-keyboards/images/overview/magic_keyboard_black__b0zgmcf9vkgi_small_2x.png);
+	}
+}
+
+.image-magic-keyboard-ipad-air-white {
+	background-image: url(/in/ipad-keyboards/images/overview/magic_keyboard_ipad_air_white__9s0wtoadc6q2_large.png);
+}
+
+@media (min-resolution: 1.5dppx), (min-resolution: 144dpi) {
+	.image-magic-keyboard-ipad-air-white {
+		background-image: url(/in/ipad-keyboards/images/overview/magic_keyboard_ipad_air_white__9s0wtoadc6q2_large_2x.png);
+	}
+}
+
+@media (max-width: 1068px) {
+	.image-magic-keyboard-ipad-air-white {
+		background-image: url(/in/ipad-keyboards/images/overview/magic_keyboard_ipad_air_white__9s0wtoadc6q2_medium.png);
+	}
+}
+
+@media (max-width: 1068px) and (min-resolution: 1.5dppx), (max-width: 1068px) and (min-resolution: 144dpi) {
+	.image-magic-keyboard-ipad-air-white {
+		background-image: url(/in/ipad-keyboards/images/overview/magic_keyboard_ipad_air_white__9s0wtoadc6q2_medium_2x.png);
+	}
+}
+
+@media (max-width: 734px) {
+	.image-magic-keyboard-ipad-air-white {
+		background-image: url(/in/ipad-keyboards/images/overview/magic_keyboard_ipad_air_white__9s0wtoadc6q2_small.png);
+	}
+}
+
+@media (max-width: 734px) and (min-resolution: 1.5dppx), (max-width: 734px) and (min-resolution: 144dpi) {
+	.image-magic-keyboard-ipad-air-white {
+		background-image: url(/in/ipad-keyboards/images/overview/magic_keyboard_ipad_air_white__9s0wtoadc6q2_small_2x.png);
+	}
+}
+.image-magic-keyboard-ipad-air-black {
+	background-image: url(/in/ipad-keyboards/images/overview/magic_keyboard_ipad_air_black__dlwj24puj46e_large.png);
+}
+
+@media (min-resolution: 1.5dppx), (min-resolution: 144dpi) {
+	.image-magic-keyboard-ipad-air-black {
+		background-image: url(/in/ipad-keyboards/images/overview/magic_keyboard_ipad_air_black__dlwj24puj46e_large_2x.png);
+	}
+}
+
+@media (max-width: 1068px) {
+	.image-magic-keyboard-ipad-air-black {
+		background-image: url(/in/ipad-keyboards/images/overview/magic_keyboard_ipad_air_black__dlwj24puj46e_medium.png);
+	}
+}
+
+@media (max-width: 1068px) and (min-resolution: 1.5dppx), (max-width: 1068px) and (min-resolution: 144dpi) {
+	.image-magic-keyboard-ipad-air-black {
+		background-image: url(/in/ipad-keyboards/images/overview/magic_keyboard_ipad_air_black__dlwj24puj46e_medium_2x.png);
+	}
+}
+
+@media (max-width: 734px) {
+	.image-magic-keyboard-ipad-air-black {
+		background-image: url(/in/ipad-keyboards/images/overview/magic_keyboard_ipad_air_black__dlwj24puj46e_small.png);
+	}
+}
+
+@media (max-width: 734px) and (min-resolution: 1.5dppx), (max-width: 734px) and (min-resolution: 144dpi) {
+	.image-magic-keyboard-ipad-air-black {
+		background-image: url(/in/ipad-keyboards/images/overview/magic_keyboard_ipad_air_black__dlwj24puj46e_small_2x.png);
+	}
+}

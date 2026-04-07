@@ -1,0 +1,101 @@
+.section-intelligence .section-header .hardware-lockup .inline-video-intelligence .start-frame {
+	background-image: url(/in/ipad-mini/images/overview/intelligence/express_startframe__d7pfq5162rma_large.jpg);
+}
+
+@media (min-resolution: 144dpi), only screen and (min-resolution: 1.5dppx) {
+	.section-intelligence .section-header .hardware-lockup .inline-video-intelligence .start-frame {
+		background-image: url(/in/ipad-mini/images/overview/intelligence/express_startframe__d7pfq5162rma_large_2x.jpg);
+	}
+}
+
+@media only screen and (max-width: 1068px) {
+	.section-intelligence .section-header .hardware-lockup .inline-video-intelligence .start-frame {
+		background-image: url(/in/ipad-mini/images/overview/intelligence/express_startframe__d7pfq5162rma_medium.jpg);
+	}
+}
+
+@media only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+	.section-intelligence .section-header .hardware-lockup .inline-video-intelligence .start-frame {
+		background-image: url(/in/ipad-mini/images/overview/intelligence/express_startframe__d7pfq5162rma_medium_2x.jpg);
+	}
+}
+
+@media only screen and (max-width: 734px) {
+	.section-intelligence .section-header .hardware-lockup .inline-video-intelligence .start-frame {
+		background-image: url(/in/ipad-mini/images/overview/intelligence/express_startframe__d7pfq5162rma_small.jpg);
+	}
+}
+
+@media only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+	.section-intelligence .section-header .hardware-lockup .inline-video-intelligence .start-frame {
+		background-image: url(/in/ipad-mini/images/overview/intelligence/express_startframe__d7pfq5162rma_small_2x.jpg);
+	}
+}
+
+.section-intelligence .section-header .hardware-lockup .inline-video-intelligence .end-frame {
+	background-image: url(/in/ipad-mini/images/overview/intelligence/express_endframe__bxwzs5qttw9y_large.jpg);
+}
+
+@media (min-resolution: 144dpi), only screen and (min-resolution: 1.5dppx) {
+	.section-intelligence .section-header .hardware-lockup .inline-video-intelligence .end-frame {
+		background-image: url(/in/ipad-mini/images/overview/intelligence/express_endframe__bxwzs5qttw9y_large_2x.jpg);
+	}
+}
+
+@media only screen and (max-width: 1068px) {
+	.section-intelligence .section-header .hardware-lockup .inline-video-intelligence .end-frame {
+		background-image: url(/in/ipad-mini/images/overview/intelligence/express_endframe__bxwzs5qttw9y_medium.jpg);
+	}
+}
+
+@media only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+	.section-intelligence .section-header .hardware-lockup .inline-video-intelligence .end-frame {
+		background-image: url(/in/ipad-mini/images/overview/intelligence/express_endframe__bxwzs5qttw9y_medium_2x.jpg);
+	}
+}
+
+@media only screen and (max-width: 734px) {
+	.section-intelligence .section-header .hardware-lockup .inline-video-intelligence .end-frame {
+		background-image: url(/in/ipad-mini/images/overview/intelligence/express_endframe__bxwzs5qttw9y_small.jpg);
+	}
+}
+
+@media only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+	.section-intelligence .section-header .hardware-lockup .inline-video-intelligence .end-frame {
+		background-image: url(/in/ipad-mini/images/overview/intelligence/express_endframe__bxwzs5qttw9y_small_2x.jpg);
+	}
+}
+
+.section-intelligence .section-header .hardware-lockup .inline-video-intelligence .static-frame {
+	background-image: url(/in/ipad-mini/images/overview/intelligence/express_static__di2fpc2jb42u_large.jpg);
+}
+
+@media (min-resolution: 144dpi), only screen and (min-resolution: 1.5dppx) {
+	.section-intelligence .section-header .hardware-lockup .inline-video-intelligence .static-frame {
+		background-image: url(/in/ipad-mini/images/overview/intelligence/express_static__di2fpc2jb42u_large_2x.jpg);
+	}
+}
+
+@media only screen and (max-width: 1068px) {
+	.section-intelligence .section-header .hardware-lockup .inline-video-intelligence .static-frame {
+		background-image: url(/in/ipad-mini/images/overview/intelligence/express_static__di2fpc2jb42u_medium.jpg);
+	}
+}
+
+@media only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+	.section-intelligence .section-header .hardware-lockup .inline-video-intelligence .static-frame {
+		background-image: url(/in/ipad-mini/images/overview/intelligence/express_static__di2fpc2jb42u_medium_2x.jpg);
+	}
+}
+
+@media only screen and (max-width: 734px) {
+	.section-intelligence .section-header .hardware-lockup .inline-video-intelligence .static-frame {
+		background-image: url(/in/ipad-mini/images/overview/intelligence/express_static__di2fpc2jb42u_small.jpg);
+	}
+}
+
+@media only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+	.section-intelligence .section-header .hardware-lockup .inline-video-intelligence .static-frame {
+		background-image: url(/in/ipad-mini/images/overview/intelligence/express_static__di2fpc2jb42u_small_2x.jpg);
+	}
+}
